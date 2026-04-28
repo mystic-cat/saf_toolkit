@@ -2,6 +2,16 @@
 
 A Blender 3.6 add-on designed to streamline the animation creation pipeline for the Starfield Animation Framework (SAF/NAF). This toolkit automates hierarchy cleanup, prevents namespace collisions, handles strict `.gltf` export parameters, and manages your master bone dictionary JSONs—all without destructively modifying your working `.blend` file.
 
+**Updates & Contributing:** I will periodically add more base models for importing and keep the skeleton dictionaries updated over time. If you know how to create base models in Nifskope, you are more than welcome to submit Pull Requests (PRs) to add more templates to the repository!
+
+---
+
+## Roadmap
+
+**Native `.rig` Support:** I plan on implementing a feature to convert SAF animations onto the engine's native `.rig` files for full native animation framework support. This upcoming tool will translate the animation data from the nodes/objects on the SAF skeletons directly to the actual `.rig` files.
+
+---
+
 ## Key Features
 
 * **Non-Destructive Namespace Cleanup:** Blender strictly enforces unique names, often appending `.001` to duplicated bones or actions. This plugin temporarily clears the global namespace, strips the `.001` numbers from your target export, forces the top node to "Root", runs the export, and reverts everything back in milliseconds. Your Blender scene stays exactly how you organized it, but SAF gets the pristine naming it requires.
@@ -56,7 +66,7 @@ SAF requires a master `.json` file that registers every possible bone for a spec
 
 1. Ensure your **Target Actor** is selected in the Export panel.
 2. Under the Dictionary dropdown, select an existing Race Dictionary or choose **-- Create New --**.
-3. If creating a new one, type the name in the **New Name** field.
+3. If creating a new one, type the name in the **New Name** field. **Important:** This name *must* exactly match the race used in the Creation Kit (e.g., `HumanRace` or `ParasiteARace`), otherwise it will not work in-game.
 4. Click **Update Master JSON**.
 
 The plugin will scan your active Armature, compare its bones against the JSON, and append any missing bones. It also automatically ensures that `"Root_"` and `"COM"` are placed at the very top of the dictionary.
