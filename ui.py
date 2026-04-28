@@ -37,11 +37,11 @@ class SAF_PT_Panel(bpy.types.Panel):
         # --- EXPORT SECTION ---
         row1 = layout.row()
         row1.label(text="Export Animation", icon='EXPORT')
-        # The new Folder shortcut button
         row1.operator("saf.open_export_folder", text="", icon='FILE_FOLDER')
         
         box2 = layout.box()
         box2.prop(scene, "saf_export_target", text="Target")
+        box2.prop(scene, "saf_custom_export_path", text="Export Path")
         box2.prop(scene, "saf_export_filename", text="File Name")
         box2.operator("saf.clean_and_export", icon='EXPORT')
 
@@ -50,13 +50,32 @@ class SAF_PT_Panel(bpy.types.Panel):
         # --- JSON SECTION ---
         row2 = layout.row()
         row2.label(text="Dictionary Manager", icon='TEXT')
-        # The new Folder shortcut button
         row2.operator("saf.open_skeletons_folder", text="", icon='FILE_FOLDER')
         
         box3 = layout.box()
-        box3.prop(scene, "saf_json_dropdown", text="Target JSON")
+        box3.prop(scene, "saf_export_target", text="Target Actor")
         
-        if scene.saf_json_dropdown == "CREATE_NEW":
-            box3.prop(scene, "saf_json_filename", text="New Name")
+        # Smart Metadata UI Logic
+        target_name = scene.saf_export_target
+        target_obj = scene.objects.get(target_name) if target_name != "NONE" else None
+        
+        # Check if it has metadata AND if the file actually exists
+        has_valid_metadata = False
+        if target_obj and "saf_race" in target_obj:
+            expected_json = f"{target_obj['saf_race']}.json"
+            expected_path = os.path.join(utils.get_skeletons_dir(), expected_json)
+            if os.path.exists(expected_path):
+                has_valid_metadata = True
+
+        if has_valid_metadata:
+            box3.label(text=f"Dictionary: {target_obj['saf_race']}.json", icon='LOCKED')
+            box3.label(text="(Auto-Detected from Template)", icon='INFO')
+        else:
+            if target_obj and "saf_race" in target_obj:
+                box3.label(text=f"Template: {target_obj['saf_race']} (Dict Not Found)", icon='INFO')
+                
+            box3.prop(scene, "saf_json_dropdown", text="Dictionary")
+            if scene.saf_json_dropdown == "CREATE_NEW":
+                box3.prop(scene, "saf_json_filename", text="New Name")
             
-        box3.operator("saf.generate_json", icon='FILE_SCRIPT')
+        box3.operator("saf.generate_json", icon='FILE_TICK')

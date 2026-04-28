@@ -1,6 +1,7 @@
 import bpy
 import os
 import re
+import json
 from . import utils
 
 class SAF_OT_ImportModel(bpy.types.Operator):
@@ -35,6 +36,10 @@ class SAF_OT_ImportModel(bpy.types.Operator):
         )
         
         for obj in context.selected_objects:
+            # Stamp the top-level root with the Race metadata!
+            if obj.parent is None:
+                obj["saf_race"] = f"{race}Race"
+                
             if obj.type == 'ARMATURE':
                 obj.data.display_type = 'OCTAHEDRAL'
                 obj.show_in_front = True
@@ -56,9 +61,18 @@ class SAF_OT_CleanAndExport(bpy.types.Operator):
 
         top_root = context.scene.objects[target_name]
 
-        if not bpy.data.filepath:
-            self.report({'WARNING'}, "Please save your .blend file first to establish an export directory.")
-            return {'CANCELLED'}
+        custom_path = context.scene.saf_custom_export_path.strip()
+        
+        if custom_path:
+            export_dir = bpy.path.abspath(custom_path)
+            if not os.path.isdir(export_dir):
+                self.report({'WARNING'}, "The custom export directory does not exist!")
+                return {'CANCELLED'}
+        else:
+            if not bpy.data.filepath:
+                self.report({'WARNING'}, "Please save your .blend file first, or set a Custom Export Path.")
+                return {'CANCELLED'}
+            export_dir = os.path.dirname(bpy.data.filepath)
 
         custom_name = context.scene.saf_export_filename.strip()
         if not custom_name:
@@ -74,11 +88,9 @@ class SAF_OT_CleanAndExport(bpy.types.Operator):
         for obj in context.view_layer.objects:
             obj.select_set(False)
 
-        # 1. Prep Hierarchy
         utils.prepare_and_select_hierarchy(top_root)
         armature = utils.find_armature_in_hierarchy(top_root)
         
-        # 2. Map Hierarchy
         hierarchy_objs = set()
         def get_hierarchy(obj):
             hierarchy_objs.add(obj)
@@ -86,7 +98,6 @@ class SAF_OT_CleanAndExport(bpy.types.Operator):
                 get_hierarchy(child)
         get_hierarchy(top_root)
 
-        export_dir = os.path.dirname(bpy.data.filepath)
         export_path = os.path.join(export_dir, f"{custom_name}.gltf")
         export_result = {'CANCELLED'}
 
@@ -95,11 +106,9 @@ class SAF_OT_CleanAndExport(bpy.types.Operator):
         hierarchy_renamed = []
 
         def clean_name(name_str):
-            # Safely strips .001, .002, .099, etc. from anywhere in the string
             return re.sub(r'\.\d+', '', name_str)
 
         try:
-            # --- PHASE A: FREE UP THE NAMESPACE ---
             for obj in bpy.data.objects:
                 if obj not in hierarchy_objs:
                     try:
@@ -127,11 +136,9 @@ class SAF_OT_CleanAndExport(bpy.types.Operator):
                     except Exception:
                         pass
 
-            # --- PHASE B: PURIFY OUR EXPORT ACTOR ---
             def apply_clean(item, force_root=False):
                 if item and hasattr(item, 'name'):
                     old_name = item.name
-                    # --- FIX: Only force the literal top object to be "Root" ---
                     new_name = "Root" if force_root else clean_name(old_name)
                     
                     if old_name != new_name:
@@ -142,10 +149,7 @@ class SAF_OT_CleanAndExport(bpy.types.Operator):
                             pass
 
             for obj in hierarchy_objs:
-                # Force "Root" exclusively on the top_root object
                 apply_clean(obj, force_root=(obj == top_root))
-                
-                # Everything else just gets the numbers stripped off
                 apply_clean(obj.data)
                 
                 if obj.type == 'ARMATURE':
@@ -155,7 +159,6 @@ class SAF_OT_CleanAndExport(bpy.types.Operator):
                 if obj.animation_data and obj.animation_data.action:
                     apply_clean(obj.animation_data.action)
 
-            # --- PHASE C: RUN THE EXPORT ---
             if armature:
                 context.view_layer.objects.active = armature
             else:
@@ -185,7 +188,6 @@ class SAF_OT_CleanAndExport(bpy.types.Operator):
             )
 
         finally:
-            # --- PHASE D: THE MAGIC REVERT ---
             for item, old_name in reversed(hierarchy_renamed):
                 try:
                     item.name = old_name
@@ -215,6 +217,41 @@ class SAF_OT_GenerateJSON(bpy.types.Operator):
     bl_label = "Update Master JSON"
     bl_options = {'REGISTER'}
 
+    def invoke(self, context, event):
+        target_name = context.scene.saf_export_target
+        if target_name == "NONE" or target_name not in context.scene.objects:
+            self.report({'WARNING'}, "Please select a valid Target Actor from the dropdown.")
+            return {'CANCELLED'}
+            
+        top_root = context.scene.objects[target_name]
+        
+        # If it has the stamped metadata AND the file exists, bypass the warning!
+        if "saf_race" in top_root:
+            expected_path = os.path.join(utils.get_skeletons_dir(), f"{top_root['saf_race']}.json")
+            if os.path.exists(expected_path):
+                return self.execute(context)
+            
+        # Otherwise, pop up the safety verification
+        return context.window_manager.invoke_props_dialog(self, width=350)
+
+    def draw(self, context):
+        layout = self.layout
+        target_name = context.scene.saf_export_target
+        
+        dict_name = context.scene.saf_json_dropdown
+        if dict_name == "CREATE_NEW":
+            dict_name = context.scene.saf_json_filename
+            
+        if dict_name.lower().endswith(".json"):
+            dict_name = dict_name[:-5]
+            
+        layout.label(text="⚠️ UNKNOWN ACTOR ORIGIN ⚠️", icon='ERROR')
+        layout.separator()
+        layout.label(text=f"Extracting bones from:  {target_name}")
+        layout.label(text=f"Saving into:  {dict_name}.json")
+        layout.separator()
+        layout.label(text="Are you sure you have the correct dictionary selected?")
+
     def execute(self, context):
         target_name = context.scene.saf_export_target
         if target_name == "NONE" or target_name not in context.scene.objects:
@@ -223,13 +260,23 @@ class SAF_OT_GenerateJSON(bpy.types.Operator):
 
         top_root = context.scene.objects[target_name]
 
-        if context.scene.saf_json_dropdown == "CREATE_NEW":
-            custom_json_name = context.scene.saf_json_filename.strip()
-            if not custom_json_name:
-                self.report({'WARNING'}, "Please type a new Race name in the box!")
-                return {'CANCELLED'}
+        # Use metadata ONLY if the file exists, otherwise fallback to UI selection
+        use_metadata = False
+        if "saf_race" in top_root:
+            expected_path = os.path.join(utils.get_skeletons_dir(), f"{top_root['saf_race']}.json")
+            if os.path.exists(expected_path):
+                use_metadata = True
+
+        if use_metadata:
+            custom_json_name = top_root["saf_race"]
         else:
-            custom_json_name = context.scene.saf_json_dropdown
+            if context.scene.saf_json_dropdown == "CREATE_NEW":
+                custom_json_name = context.scene.saf_json_filename.strip()
+                if not custom_json_name:
+                    self.report({'WARNING'}, "Please type a new Race name in the box!")
+                    return {'CANCELLED'}
+            else:
+                custom_json_name = context.scene.saf_json_dropdown
 
         if custom_json_name.lower().endswith(".json"):
             custom_json_name = custom_json_name[:-5]
@@ -240,9 +287,23 @@ class SAF_OT_GenerateJSON(bpy.types.Operator):
             self.report({'WARNING'}, "No Armature found in this hierarchy!")
             return {'CANCELLED'}
 
-        current_bones = [bone.name for bone in armature.data.bones]
-        master_bones = []
+        def clean_name(name_str):
+            import re
+            return re.sub(r'\.\d+', '', name_str)
+
+        current_bones = []
+        current_bones.append("Root_")
         
+        arm_name = clean_name(armature.name)
+        if arm_name not in current_bones:
+            current_bones.append(arm_name)
+
+        for bone in armature.data.bones:
+            cleaned_bone = clean_name(bone.name)
+            if cleaned_bone not in current_bones and cleaned_bone != "Root":
+                current_bones.append(cleaned_bone)
+
+        master_bones = []
         export_dir = utils.get_skeletons_dir()
         export_path = os.path.join(export_dir, f"{custom_json_name}.json")
 
@@ -262,9 +323,13 @@ class SAF_OT_GenerateJSON(bpy.types.Operator):
                 master_bones.append(bone)
                 added_count += 1
 
-        if "COM" in master_bones:
-            master_bones.remove("COM")
-            master_bones.insert(0, "COM")
+        if "Root" in master_bones:
+            master_bones.remove("Root")
+
+        if arm_name in master_bones:
+            master_bones.remove(arm_name)
+            master_bones.insert(0, arm_name)
+            
         if "Root_" in master_bones:
             master_bones.remove("Root_")
             master_bones.insert(0, "Root_")
@@ -281,20 +346,27 @@ class SAF_OT_GenerateJSON(bpy.types.Operator):
         return {'FINISHED'}
 
 
-# --- NEW: OPEN FOLDER OPERATORS ---
-
 class SAF_OT_OpenExportFolder(bpy.types.Operator):
-    """Opens your OS file explorer to the directory where this .blend file is saved"""
+    """Opens your OS file explorer to the directory where the GLTF will be saved"""
     bl_idname = "saf.open_export_folder"
     bl_label = "Open Export Folder"
 
     def execute(self, context):
-        if not bpy.data.filepath:
-            self.report({'WARNING'}, "Please save your .blend file first so Blender knows where it is!")
-            return {'CANCELLED'}
+        custom_path = context.scene.saf_custom_export_path.strip()
         
-        export_dir = os.path.dirname(bpy.data.filepath)
-        bpy.ops.wm.path_open(filepath=export_dir)
+        if custom_path:
+            export_dir = bpy.path.abspath(custom_path)
+        else:
+            if not bpy.data.filepath:
+                self.report({'WARNING'}, "Please save your .blend file first, or set a Custom Export Path!")
+                return {'CANCELLED'}
+            export_dir = os.path.dirname(bpy.data.filepath)
+        
+        if os.path.isdir(export_dir):
+            bpy.ops.wm.path_open(filepath=export_dir)
+        else:
+            self.report({'WARNING'}, "The target directory does not exist yet.")
+            
         return {'FINISHED'}
 
 

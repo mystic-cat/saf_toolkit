@@ -1,7 +1,7 @@
 bl_info = {
     "name": "SAF Toolkit",
     "author": "Your Name",
-    "version": (1, 6, 3),
+    "version": (1, 6, 4),
     "blender": (3, 0, 0),
     "location": "View3D > Sidebar > SAF Toolkit",
     "description": "Automates hierarchy cleanup, GLTF export, JSON updating, and model importing for SAF.",
@@ -23,7 +23,6 @@ from . import utils
 from . import operators
 from . import ui
 
-# Added the two new classes to the registration list
 classes = (
     operators.SAF_OT_ImportModel,
     operators.SAF_OT_CleanAndExport,
@@ -61,6 +60,13 @@ def register():
         items=utils.get_scene_root_objects
     )
 
+    bpy.types.Scene.saf_custom_export_path = bpy.props.StringProperty(
+        name="Export Path",
+        description="Leave blank to export to the .blend file's directory, or click the folder icon to select a specific path",
+        default="",
+        subtype='DIR_PATH' 
+    )
+
     bpy.types.Scene.saf_export_filename = bpy.props.StringProperty(
         name="GLTF Name",
         description="Type the desired name for your exported animation file (e.g., X_HeatleechNursing1)",
@@ -83,6 +89,7 @@ def unregister():
     for cls in reversed(classes):
         bpy.utils.unregister_class(cls)
         
+    del bpy.types.Scene.saf_custom_export_path
     del bpy.types.Scene.saf_export_filename
     del bpy.types.Scene.saf_json_filename
     del bpy.types.Scene.saf_json_dropdown
