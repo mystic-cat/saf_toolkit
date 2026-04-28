@@ -1,88 +1,82 @@
-SAF Toolkit (Starfield Animation Framework)
-A Blender 3.6 add-on designed to streamline the animation creation pipeline for the Starfield Animation Framework (SAF/NAF). This toolkit automates hierarchy cleanup, prevents namespace collisions, handles strict .gltf export parameters, and manages your master bone dictionary JSONs—all without destructively modifying your working .blend file.
+# SAF Toolkit (Starfield Animation Framework)
 
- Key Features
-Non-Destructive Namespace Cleanup: Blender strictly enforces unique names, often appending .001 to duplicated bones or actions. This plugin temporarily clears the global namespace, strips the .001 numbers from your target export, forces the top node to "Root", runs the export, and reverts everything back in milliseconds. Your Blender scene stays exactly how you organized it, but SAF gets the pristine naming it requires.
+A Blender 3.6 add-on designed to streamline the animation creation pipeline for the Starfield Animation Framework (SAF/NAF). This toolkit automates hierarchy cleanup, prevents namespace collisions, handles strict `.gltf` export parameters, and manages your master bone dictionary JSONs—all without destructively modifying your working `.blend` file.
 
-One-Click NAF Export: Automatically exports using the exact glTF 2.0 parameters required by NAF (Embedded, Active Actions, correct sampling, no meshes).
+## Key Features
 
-Smart Hierarchy Detection: Automatically detects whether your top root is an Empty or an Armature and ensures the correct object is active so IK constraints and keyframes bake correctly.
+* **Non-Destructive Namespace Cleanup:** Blender strictly enforces unique names, often appending `.001` to duplicated bones or actions. This plugin temporarily clears the global namespace, strips the `.001` numbers from your target export, forces the top node to "Root", runs the export, and reverts everything back in milliseconds. Your Blender scene stays exactly how you organized it, but SAF gets the pristine naming it requires.
+* **One-Click NAF Export:** Automatically exports using the exact `glTF 2.0` parameters required by NAF (Embedded, Active Actions, correct sampling, no meshes).
+* **Smart Hierarchy Detection:** Automatically detects whether your top root is an Empty or an Armature and ensures the correct object is active so IK constraints and keyframes bake correctly.
+* **JSON Dictionary Manager:** Instantly append newly created bones from your rig into your master Race JSON dictionary.
+* **Model Importer:** Quickly spawn base race models and skeletons directly from your templates folder.
 
-JSON Dictionary Manager: Instantly append newly created bones from your rig into your master Race JSON dictionary.
+---
 
-Model Importer: Quickly spawn base race models and skeletons directly from your templates folder.
+## Installation
 
- Installation
-Download the latest release of the SAF Toolkit (usually a .zip file).
+1. Download the latest release of the SAF Toolkit (usually a `.zip` file).
+2. Open Blender 3.6.
+3. Go to **Edit > Preferences > Add-ons**.
+4. Click **Install...** and select the downloaded `.zip` file.
+5. Check the box next to **Animation: SAF Toolkit** to enable it.
+6. The toolkit will appear in the 3D Viewport Sidebar (press `N` to open) under the **SAF Toolkit** tab.
 
-Open Blender 3.6.
+---
 
-Go to Edit > Preferences > Add-ons.
+## Usage Guide
 
-Click Install... and select the downloaded .zip file.
+### 1. Model Importer
+Quickly bring base `.gltf` skeletons into your scene to start animating.
 
-Check the box next to Animation: SAF Toolkit to enable it.
+* **Race:** Select the base race folder.
+* **Variant:** Select the subfolder (e.g., Male / Female).
+* **Model:** Select the specific `.gltf` file to import.
+* Click **Import Selected Model**.
 
-The toolkit will appear in the 3D Viewport Sidebar (press N to open) under the SAF Toolkit tab.
+> **Note:** Skeletons import with their bone display type automatically set to 'Octahedral' and 'In Front' so you can immediately see the rig.
 
- Usage Guide
-1. Model Importer
-Quickly bring base .gltf skeletons into your scene to start animating.
+*[Screenshot of the Model Importer section in the Blender UI]*
 
-Race: Select the base race folder.
+### 2. Export Animation
+Exporting animations for Starfield requires pristine naming conventions. If an action or bone has `.001` attached to it, the SAF in-game hooks will fail.
 
-Variant: Select the subfolder (e.g., Male / Female).
+1. Ensure your `.blend` file is saved (the plugin exports to the same directory).
+2. Select your **Target Actor** from the dropdown. This should be the absolute top-level parent of your hierarchy (e.g., `HeatleechRoot` or `HumanRoot`).
+3. Type your desired **File Name** (e.g., `Heatleech_Attack_01`).
+4. Click **Clean Actor & Export GLTF**.
 
-Model: Select the specific .gltf file to import.
+**What happens under the hood?**
+The plugin safely hides the rest of your scene, removes any `.001` suffixes from your target's bones and action tracks, renames the top node to "Root", runs the Starfield-compliant GLTF export, and then reverts your Blender scene back to normal. You can safely have multiple actors in the same scene without Blender fighting your naming conventions!
 
-Click Import Selected Model.
+*[Screenshot of the Export Animation section in the Blender UI]*
+*[Screenshot showing a clean, exported GLTF hierarchy side-by-side with a messy Blender Outliner to show the plugin's cleanup magic]*
 
-Note: Skeletons import with their bone display type automatically set to 'Octahedral' and 'In Front' so you can immediately see the rig.
+### 3. Dictionary Manager
+SAF requires a master `.json` file that registers every possible bone for a specific race so the engine knows how to hook into them.
 
-[Screenshot of the Model Importer section in the Blender UI]
+1. Ensure your **Target Actor** is selected in the Export panel.
+2. Under the Dictionary dropdown, select an existing Race Dictionary or choose **-- Create New --**.
+3. If creating a new one, type the name in the **New Name** field.
+4. Click **Update Master JSON**.
 
-2. Export Animation
-Exporting animations for Starfield requires pristine naming conventions. If an action or bone has .001 attached to it, the SAF in-game hooks will fail.
+The plugin will scan your active Armature, compare its bones against the JSON, and append any missing bones. It also automatically ensures that `"Root_"` and `"COM"` are placed at the very top of the dictionary.
 
-Ensure your .blend file is saved (the plugin exports to the same directory).
+*[Screenshot of the Dictionary Manager section in the Blender UI]*
 
-Select your Target Actor from the dropdown. This should be the absolute top-level parent of your hierarchy (e.g., HeatleechRoot or HumanRoot).
+---
 
-Type your desired File Name (e.g., Heatleech_Attack_01).
+## Folder Structure Setup
 
-Click Clean Actor & Export GLTF.
-
-What happens under the hood?
-The plugin safely hides the rest of your scene, removes any .001 suffixes from your target's bones and action tracks, renames the top node to "Root", runs the Starfield-compliant GLTF export, and then reverts your Blender scene back to normal. You can safely have multiple actors in the same scene without Blender fighting your naming conventions!
-
-[Screenshot of the Export Animation section in the Blender UI]
-[Screenshot showing a clean, exported GLTF hierarchy side-by-side with a messy Blender Outliner to show the plugin's cleanup magic]
-
-3. Dictionary Manager
-SAF requires a master .json file that registers every possible bone for a specific race so the engine knows how to hook into them.
-
-Ensure your Target Actor is selected in the Export panel.
-
-Under the Dictionary dropdown, select an existing Race Dictionary or choose -- Create New --.
-
-If creating a new one, type the name in the New Name field.
-
-Click Update Master JSON.
-
-The plugin will scan your active Armature, compare its bones against the JSON, and append any missing bones. It also automatically ensures that "Root_" and "COM" are placed at the very top of the dictionary.
-
-[Screenshot of the Dictionary Manager section in the Blender UI]
-
- Folder Structure Setup
 For the Model Importer and Dictionary Manager to function properly, your plugin folder must contain the following subdirectories:
 
-templates/ - Place your base .gltf skeletons here. Organize them by RaceName/SubVariant/model.gltf (e.g., templates/Human/Male/human_base.gltf).
+* `templates/` - Place your base `.gltf` skeletons here. Organize them by `RaceName/SubVariant/model.gltf` (e.g., `templates/Human/Male/human_base.gltf`).
+* `skeletons/` - This is where your generated `.json` master dictionaries are saved and read from.
 
-skeletons/ - This is where your generated .json master dictionaries are saved and read from.
+*(You can quickly open these directories via your OS file explorer by clicking the folder icons in the plugin UI!)*
 
-(You can quickly open these directories via your OS file explorer by clicking the folder icons in the plugin UI!)
+---
 
- Important Notes
-Blender Version: This plugin was built and tested on Blender 3.6. Using newer versions of Blender (4.0+) may change how the GLTF exporter handles bone data under the hood.
+## Important Notes
 
-Animations Only: This export tool is built exclusively for exporting skeleton animation data. It automatically prevents MESH objects from being exported to keep file sizes minimal and engine-compliant.
+* **Blender Version:** This plugin was built and tested on **Blender 3.6**. Using newer versions of Blender (4.0+) may change how the GLTF exporter handles bone data under the hood.
+* **Animations Only:** This export tool is built exclusively for exporting skeleton animation data. It automatically prevents `MESH` objects from being exported to keep file sizes minimal and engine-compliant.
