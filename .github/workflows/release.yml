@@ -68,6 +68,7 @@ jobs:
           cp README.md saf_toolkit/ 2>/dev/null || true
           cp -r templates saf_toolkit/ 2>/dev/null || true
           cp -r skeletons saf_toolkit/ 2>/dev/null || true
+          cp -r libraries saf_toolkit/ 2>/dev/null || true
           
           # Zip the folder
           zip -r saf_toolkit.zip saf_toolkit/
