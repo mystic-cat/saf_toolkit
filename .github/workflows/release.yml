@@ -1,0 +1,81 @@
+name: Build and Release SAF Toolkit
+
+on:
+  push:
+    branches:
+      - main # Triggers whenever code is pushed or merged into the main branch
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required for GitHub Actions to create a Release
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Extract Version from __init__.py
+        id: get_version
+        run: |
+          # Uses Python to read the (X, Y, Z) tuple in your __init__.py and converts it to vX.Y.Z
+          VERSION=$(python -c "
+          import re
+          with open('__init__.py', 'r') as f:
+              match = re.search(r'\"version\":\s*\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)\s*\)', f.read())
+              if match:
+                  print(f'v{match.group(1)}.{match.group(2)}.{match.group(3)}')
+              else:
+                  print('v0.0.0')
+          ")
+          echo "VERSION=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Verify Version Bump
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          NEW_VERSION="${{ steps.get_version.outputs.VERSION }}"
+          echo "New version found in code: $NEW_VERSION"
+
+          # Fetch the latest release tag from GitHub. If no releases exist yet, default to v0.0.0
+          LATEST_VERSION=$(gh release view --json tagName -q ".tagName" 2>/dev/null || echo "v0.0.0")
+          echo "Latest release on GitHub: $LATEST_VERSION"
+
+          # Check for exact matches (forgot to bump)
+          if [ "$NEW_VERSION" == "$LATEST_VERSION" ]; then
+            echo "❌ ERROR: Version $NEW_VERSION already exists. You forgot to bump the version in __init__.py!"
+            exit 1
+          fi
+
+          # Use 'sort -V' to accurately compare semantic version numbers
+          HIGHEST=$(printf "%s\n%s" "$NEW_VERSION" "$LATEST_VERSION" | sort -V | tail -n 1)
+
+          # Check for downgrades (accidental older version push)
+          if [ "$HIGHEST" != "$NEW_VERSION" ]; then
+            echo "❌ ERROR: New version ($NEW_VERSION) is older/lower than the latest release ($LATEST_VERSION)."
+            exit 1
+          fi
+
+          echo "✅ Version bump verified! Proceeding with release."
+
+      - name: Build Blender Compliant ZIP
+        run: |
+          # Blender prefers add-ons to be inside a parent folder within the ZIP.
+          mkdir saf_toolkit
+          
+          # Copy only the necessary files
+          cp *.py saf_toolkit/
+          cp README.md saf_toolkit/ 2>/dev/null || true
+          cp -r templates saf_toolkit/ 2>/dev/null || true
+          cp -r skeletons saf_toolkit/ 2>/dev/null || true
+          
+          # Zip the folder
+          zip -r saf_toolkit.zip saf_toolkit/
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.get_version.outputs.VERSION }}
+          name: "SAF Toolkit ${{ steps.get_version.outputs.VERSION }}"
+          files: saf_toolkit.zip
+          generate_release_notes: true
