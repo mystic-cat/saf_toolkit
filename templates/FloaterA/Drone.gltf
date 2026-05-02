@@ -1,0 +1,736 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 14,
+      "type": "MAT4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 18926,
+      "max": [
+        0.6769005656242371,
+        0.6855677962303162,
+        2.479323625564575
+      ],
+      "min": [
+        -0.6769005656242371,
+        -0.6793420314788818,
+        0.0637226477265358
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 18926,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 18926,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 18926,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 18926,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5123,
+      "count": 18926,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5123,
+      "count": 96795,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "NifSkope glTF 2.0 Exporter v1.2",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 896
+    },
+    {
+      "buffer": 0,
+      "byteLength": 227112,
+      "byteOffset": 896,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 227112,
+      "byteOffset": 228008,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 302816,
+      "byteOffset": 455120,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 151408,
+      "byteOffset": 757936,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 302816,
+      "byteOffset": 909344,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 151408,
+      "byteOffset": 1212160,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 193590,
+      "byteOffset": 1363568,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1557158,
+      "name": "Drone.bin",
+      "uri": "Drone.bin"
+    }
+  ],
+  "materials": [
+    {
+      "extras": {
+        "Material Path": "Default"
+      },
+      "name": "Default"
+    },
+    {
+      "extras": {
+        "Material Path": "materials/actors/floatera/floatera_drone/floatera_drone.mat"
+      },
+      "name": "Materials/Actors/Floatera/Floatera_Drone/Floatera_Drone"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "FloaterA_Drone:0",
+      "primitives": [
+        {
+          "attributes": {
+            "JOINTS_0": 6,
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TANGENT": 3,
+            "TEXCOORD_0": 4,
+            "WEIGHTS_0": 5
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        20
+      ],
+      "extras": {
+        "Flags": 14,
+        "ID": 3,
+        "Parent ID": 0
+      },
+      "name": "Root",
+      "rotation": [
+        -0.7071067690849304,
+        0.0,
+        0.0,
+        0.7071067690849304
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "children": [
+        2,
+        4,
+        18,
+        19
+      ],
+      "extras": {
+        "Flags": 14,
+        "ID": 5,
+        "Parent ID": 3
+      },
+      "name": "COM",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        1.800459861755371
+      ]
+    },
+    {
+      "children": [
+        3
+      ],
+      "extras": {
+        "Flags": 14,
+        "ID": 9,
+        "Parent ID": 5
+      },
+      "name": "C_spine",
+      "rotation": [
+        0.0,
+        -0.7071034908294678,
+        0.0,
+        0.7071100473403931
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 14,
+        "ID": 12,
+        "Parent ID": 9
+      },
+      "name": "xC_spine",
+      "rotation": [
+        5.245208285487024e-07,
+        -3.576278459149762e-06,
+        2.344790811167896e-12,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.1484997570514679,
+        3.9239598237372775e-08,
+        -4.577659922233579e-07
+      ]
+    },
+    {
+      "children": [
+        5,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "extras": {
+        "Flags": 14,
+        "ID": 14,
+        "Parent ID": 5
+      },
+      "name": "C_hips",
+      "rotation": [
+        3.392837584215158e-07,
+        0.7071033716201782,
+        -3.392805467683502e-07,
+        0.7071101665496826
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        -2.000479959463064e-08,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        6
+      ],
+      "extras": {
+        "Flags": 14,
+        "ID": 17,
+        "Parent ID": 14
+      },
+      "name": "C_hips2",
+      "rotation": [
+        -2.384185791015625e-06,
+        1.430511474609375e-06,
+        1.0684954657169676e-11,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.3977999687194824,
+        -1.9533253237113968e-07,
+        -2.2888182229507947e-06
+      ]
+    },
+    {
+      "children": [
+        7
+      ],
+      "extras": {
+        "Flags": 14,
+        "ID": 20,
+        "Parent ID": 17
+      },
+      "name": "C_hips3",
+      "rotation": [
+        -4.76837158203125e-06,
+        2.980229965032777e-07,
+        1.648425319855651e-11,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.3994598388671875,
+        1.8131551087208209e-06,
+        -9.329872909802361e-07
+      ]
+    },
+    {
+      "children": [
+        8
+      ],
+      "extras": {
+        "Flags": 14,
+        "ID": 23,
+        "Parent ID": 20
+      },
+      "name": "C_hips4",
+      "rotation": [
+        -2.384185791015625e-06,
+        1.0132789611816406e-06,
+        1.4010754362248079e-11,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.36256805062294006,
+        9.43586883295211e-07,
+        6.044515998837596e-08
+      ]
+    },
+    {
+      "children": [
+        9,
+        10
+      ],
+      "extras": {
+        "Flags": 14,
+        "ID": 26,
+        "Parent ID": 23
+      },
+      "name": "C_Hips5",
+      "rotation": [
+        -1.430511474609375e-06,
+        8.344651405423065e-07,
+        1.1140376815488295e-11,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.33581995964050293,
+        -3.1648903586756205e-06,
+        -3.6195688153384253e-06
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 14,
+        "ID": 29,
+        "Parent ID": 26
+      },
+      "name": "xC_Hips",
+      "rotation": [
+        -7.629395440744702e-06,
+        2.9802333756379085e-07,
+        1.1538879227113163e-11,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.2765215337276459,
+        2.848467772764707e-07,
+        -5.7220457705398076e-08
+      ]
+    },
+    {
+      "children": [
+        11
+      ],
+      "extras": {
+        "Flags": 67108878,
+        "ID": 40,
+        "Parent ID": 26
+      },
+      "name": "Cloth_Bone_Tail01",
+      "rotation": [
+        0.7070968151092529,
+        0.004822279792279005,
+        -0.0048222788609564304,
+        0.7070838212966919
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.11144278943538666,
+        -2.603459734018543e-06,
+        0.00214900984428823
+      ]
+    },
+    {
+      "children": [
+        12
+      ],
+      "extras": {
+        "Flags": 67108878,
+        "ID": 42,
+        "Parent ID": 40
+      },
+      "name": "Cloth_Bone_Tail02",
+      "rotation": [
+        -5.567871164124938e-10,
+        1.3403237630882359e-07,
+        0.004158089403063059,
+        0.9999913573265076
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.16285446286201477,
+        1.3709067658851382e-08,
+        -1.2412319172483421e-08
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 67108878,
+        "ID": 44,
+        "Parent ID": 42
+      },
+      "name": "Cloth_Bone_Tail03",
+      "rotation": [
+        -3.58046925441613e-15,
+        7.105427357601002e-15,
+        -8.673617379884035e-19,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.13916106522083282,
+        -2.98023217215615e-10,
+        9.094946814441375e-15
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 14,
+        "ID": 31,
+        "Parent ID": 14
+      },
+      "name": "C_BodyDeform2_Def",
+      "rotation": [
+        -1.6109943240527613e-12,
+        -0.7071033120155334,
+        -1.6109788199616948e-12,
+        0.7071101665496826
+      ],
+      "scale": [
+        0.9999999403953552,
+        0.9999999403953552,
+        0.9999999403953552
+      ],
+      "translation": [
+        0.11936965584754944,
+        1.3087570138736737e-08,
+        -1.073332896339707e-06
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 67108878,
+        "ID": 46,
+        "Parent ID": 14
+      },
+      "name": "LookAt_Bone_Top04",
+      "rotation": [
+        0.0017317443853244185,
+        -0.11710721254348755,
+        0.014686285518109798,
+        0.9930092096328735
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -0.1391288787126541,
+        0.007779637351632118,
+        0.35829591751098633
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 67108878,
+        "ID": 48,
+        "Parent ID": 14
+      },
+      "name": "LookAt_Bone_Top03",
+      "rotation": [
+        0.7030236721038818,
+        -0.08802825212478638,
+        -0.07584879547357559,
+        0.7016093730926514
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -0.1391320824623108,
+        -0.35964274406433105,
+        -0.0017977905226871371
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 67108878,
+        "ID": 50,
+        "Parent ID": 14
+      },
+      "name": "LookAt_Bone_Top02",
+      "rotation": [
+        0.9904466867446899,
+        -0.009003300219774246,
+        -0.1375965029001236,
+        -0.0012500768061727285
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -0.1391354352235794,
+        0.0056855324655771255,
+        -0.35770732164382935
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 67108878,
+        "ID": 52,
+        "Parent ID": 14
+      },
+      "name": "LookAt_Bone_Top01",
+      "rotation": [
+        -0.7029483318328857,
+        -0.07654368132352829,
+        0.07654372602701187,
+        0.7029550075531006
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -0.1391320824623108,
+        0.3605476915836334,
+        0.00343475304543972
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 14,
+        "ID": 33,
+        "Parent ID": 5
+      },
+      "name": "C_BodyDeform_Def",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 14,
+        "ID": 35,
+        "Parent ID": 5
+      },
+      "name": "DirectAt",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -1.531513333929979e-07,
+        1.577721775177193e-32,
+        -5.996703839628026e-05
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 526,
+        "Has GPU LODs": false,
+        "ID": 54,
+        "Material Path": "Materials\\Actors\\FloaterA\\FloaterA_Drone\\FloaterA_Drone.mat",
+        "NiIntegerExtraData:MaterialID": 575897666,
+        "Parent ID": 3
+      },
+      "mesh": 0,
+      "name": "FloaterA_Drone:0",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "skin": 0,
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "name": "ExportScene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "skins": [
+    {
+      "inverseBindMatrices": 0,
+      "joints": [
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        5,
+        4,
+        17,
+        18,
+        15,
+        2,
+        14,
+        16
+      ],
+      "skeleton": 1
+    }
+  ]
+}

@@ -1,0 +1,731 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 13,
+      "type": "MAT4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 17919,
+      "max": [
+        0.6435743570327759,
+        0.5400555729866028,
+        2.1884212493896484
+      ],
+      "min": [
+        -0.6662800908088684,
+        -0.5400555729866028,
+        0.04223761707544327
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 17919,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 17919,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 17919,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 17919,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5123,
+      "count": 17919,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5123,
+      "count": 81774,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "NifSkope glTF 2.0 Exporter v1.2",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 832
+    },
+    {
+      "buffer": 0,
+      "byteLength": 215028,
+      "byteOffset": 832,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 215028,
+      "byteOffset": 215860,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 286704,
+      "byteOffset": 430888,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 143352,
+      "byteOffset": 717592,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 286704,
+      "byteOffset": 860944,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 143352,
+      "byteOffset": 1147648,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 163548,
+      "byteOffset": 1291000,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1454548,
+      "name": "Coralbucket.bin",
+      "uri": "Coralbucket.bin"
+    }
+  ],
+  "materials": [
+    {
+      "extras": {
+        "Material Path": "Default"
+      },
+      "name": "Default"
+    },
+    {
+      "extras": {
+        "Material Path": "materials/actors/floatera/floatera_coralbucket/floatera_coralbucket.mat"
+      },
+      "name": "Materials/Actors/Floatera/Floatera_Coralbucket/Floatera_Coralbucket"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "FloaterA_CoralBucket:0",
+      "primitives": [
+        {
+          "attributes": {
+            "JOINTS_0": 6,
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TANGENT": 3,
+            "TEXCOORD_0": 4,
+            "WEIGHTS_0": 5
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        20
+      ],
+      "extras": {
+        "Flags": 14,
+        "ID": 3,
+        "Parent ID": 0
+      },
+      "name": "Root",
+      "rotation": [
+        -0.7071067690849304,
+        0.0,
+        0.0,
+        0.7071067690849304
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "children": [
+        2,
+        4,
+        18,
+        19
+      ],
+      "extras": {
+        "Flags": 14,
+        "ID": 5,
+        "Parent ID": 3
+      },
+      "name": "COM",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        1.800459861755371
+      ]
+    },
+    {
+      "children": [
+        3
+      ],
+      "extras": {
+        "Flags": 14,
+        "ID": 9,
+        "Parent ID": 5
+      },
+      "name": "C_spine",
+      "rotation": [
+        0.0,
+        -0.7071034908294678,
+        0.0,
+        0.7071100473403931
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 14,
+        "ID": 12,
+        "Parent ID": 9
+      },
+      "name": "xC_spine",
+      "rotation": [
+        5.245208285487024e-07,
+        -3.576278459149762e-06,
+        2.344790811167896e-12,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.1484997570514679,
+        3.9239598237372775e-08,
+        -4.577659922233579e-07
+      ]
+    },
+    {
+      "children": [
+        5,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "extras": {
+        "Flags": 14,
+        "ID": 14,
+        "Parent ID": 5
+      },
+      "name": "C_hips",
+      "rotation": [
+        3.392837584215158e-07,
+        0.7071033716201782,
+        -3.392805467683502e-07,
+        0.7071101665496826
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        -2.000479959463064e-08,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        6
+      ],
+      "extras": {
+        "Flags": 14,
+        "ID": 17,
+        "Parent ID": 14
+      },
+      "name": "C_hips2",
+      "rotation": [
+        -2.384185791015625e-06,
+        1.430511474609375e-06,
+        1.0684954657169676e-11,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.3977999687194824,
+        -1.9533253237113968e-07,
+        -2.2888182229507947e-06
+      ]
+    },
+    {
+      "children": [
+        7
+      ],
+      "extras": {
+        "Flags": 14,
+        "ID": 20,
+        "Parent ID": 17
+      },
+      "name": "C_hips3",
+      "rotation": [
+        -4.76837158203125e-06,
+        2.980229965032777e-07,
+        1.648425319855651e-11,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.3994598388671875,
+        1.8131551087208209e-06,
+        -9.329872909802361e-07
+      ]
+    },
+    {
+      "children": [
+        8
+      ],
+      "extras": {
+        "Flags": 14,
+        "ID": 23,
+        "Parent ID": 20
+      },
+      "name": "C_hips4",
+      "rotation": [
+        -2.384185791015625e-06,
+        1.0132789611816406e-06,
+        1.4010754362248079e-11,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.36256805062294006,
+        9.43586883295211e-07,
+        6.044515998837596e-08
+      ]
+    },
+    {
+      "children": [
+        9,
+        10
+      ],
+      "extras": {
+        "Flags": 14,
+        "ID": 26,
+        "Parent ID": 23
+      },
+      "name": "C_Hips5",
+      "rotation": [
+        -1.430511474609375e-06,
+        8.344651405423065e-07,
+        1.1140376815488295e-11,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.33581995964050293,
+        -3.1648903586756205e-06,
+        -3.6195688153384253e-06
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 14,
+        "ID": 29,
+        "Parent ID": 26
+      },
+      "name": "xC_Hips",
+      "rotation": [
+        -7.629395440744702e-06,
+        2.9802333756379085e-07,
+        1.1538879227113163e-11,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.2765215337276459,
+        2.848467772764707e-07,
+        -5.7220457705398076e-08
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 67108878,
+        "ID": 40,
+        "Parent ID": 26
+      },
+      "name": "Spring_Bone_Tail",
+      "rotation": [
+        0.7070315480232239,
+        0.010776512324810028,
+        -0.01077604666352272,
+        0.7070177793502808
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.10212840884923935,
+        3.696507917538838e-07,
+        0.011769713833928108
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 14,
+        "ID": 31,
+        "Parent ID": 14
+      },
+      "name": "C_BodyDeform2_Def",
+      "rotation": [
+        -1.6109943240527613e-12,
+        -0.7071033120155334,
+        -1.6109788199616948e-12,
+        0.7071101665496826
+      ],
+      "scale": [
+        0.9999999403953552,
+        0.9999999403953552,
+        0.9999999403953552
+      ],
+      "translation": [
+        0.11936965584754944,
+        1.3087570138736737e-08,
+        -1.073332896339707e-06
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 67108878,
+        "ID": 42,
+        "Parent ID": 14
+      },
+      "name": "LookAt_Bone_06",
+      "rotation": [
+        0.5452612638473511,
+        0.6064716577529907,
+        0.45021122694015503,
+        0.3635823130607605
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.42914503812789917,
+        0.27432867884635925,
+        -0.3829396069049835
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 67108878,
+        "ID": 44,
+        "Parent ID": 14
+      },
+      "name": "LookAt_Bone_05",
+      "rotation": [
+        0.5737172365188599,
+        0.5861942768096924,
+        0.41333797574043274,
+        0.39544478058815
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.493427574634552,
+        -0.03032759390771389,
+        -0.3740118443965912
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 67108878,
+        "ID": 46,
+        "Parent ID": 14
+      },
+      "name": "LookAt_Bone_04",
+      "rotation": [
+        0.5852018594741821,
+        0.5505980849266052,
+        0.39691221714019775,
+        0.4436679482460022
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.4720008671283722,
+        -0.2133772373199463,
+        -0.2936582863330841
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 67108878,
+        "ID": 48,
+        "Parent ID": 14
+      },
+      "name": "LookAt_Bone_03",
+      "rotation": [
+        0.37253791093826294,
+        0.4694744646549225,
+        0.6010116934776306,
+        0.5287665724754333
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.46129438281059265,
+        0.3187488913536072,
+        0.4652310013771057
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 67108878,
+        "ID": 50,
+        "Parent ID": 14
+      },
+      "name": "LookAt_Bone_02",
+      "rotation": [
+        0.40282222628593445,
+        0.4028228521347046,
+        0.5811487436294556,
+        0.5811489820480347
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.47914960980415344,
+        -0.03479348495602608,
+        0.34559446573257446
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 67108878,
+        "ID": 52,
+        "Parent ID": 14
+      },
+      "name": "LookAt_Bone_01",
+      "rotation": [
+        0.49542906880378723,
+        0.3702152669429779,
+        0.5045290589332581,
+        0.6024458408355713
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.4612928628921509,
+        -0.23498481512069702,
+        0.28666940331459045
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 14,
+        "ID": 33,
+        "Parent ID": 5
+      },
+      "name": "C_BodyDeform_Def",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 14,
+        "ID": 35,
+        "Parent ID": 5
+      },
+      "name": "DirectAt",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -1.531513333929979e-07,
+        1.577721775177193e-32,
+        -5.996703839628026e-05
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 526,
+        "Has GPU LODs": false,
+        "ID": 54,
+        "Material Path": "Materials\\Actors\\FloaterA\\FloaterA_CoralBucket\\FloaterA_CoralBucket.mat",
+        "NiIntegerExtraData:MaterialID": -815681126,
+        "Parent ID": 3
+      },
+      "mesh": 0,
+      "name": "FloaterA_CoralBucket:0",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "skin": 0,
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "name": "ExportScene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "skins": [
+    {
+      "inverseBindMatrices": 0,
+      "joints": [
+        4,
+        10,
+        8,
+        7,
+        6,
+        5,
+        14,
+        17,
+        16,
+        15,
+        13,
+        12,
+        2
+      ],
+      "skeleton": 1
+    }
+  ]
+}
