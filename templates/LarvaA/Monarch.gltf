@@ -3,71 +3,59 @@
     {
       "bufferView": 0,
       "componentType": 5126,
-      "count": 16,
+      "count": 17,
       "type": "MAT4"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 2695,
+      "count": 9040,
       "max": [
-        0.08798485994338989,
-        0.2305673360824585,
-        0.15234839916229248
+        0.08597064018249512,
+        0.2594988942146301,
+        0.2616351842880249
       ],
       "min": [
-        -0.0875881239771843,
-        -0.3554185628890991,
-        -0.00595110934227705
+        -0.08597064018249512,
+        -0.3674733638763428,
+        -0.0018005920574069023
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 2695,
+      "count": 9040,
       "type": "VEC3"
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 2695,
+      "count": 9040,
       "type": "VEC4"
     },
     {
       "bufferView": 4,
       "componentType": 5126,
-      "count": 2695,
+      "count": 9040,
       "type": "VEC2"
     },
     {
       "bufferView": 5,
       "componentType": 5126,
-      "count": 2695,
+      "count": 9040,
       "type": "VEC4"
     },
     {
       "bufferView": 6,
-      "componentType": 5126,
-      "count": 2695,
+      "componentType": 5123,
+      "count": 9040,
       "type": "VEC4"
     },
     {
       "bufferView": 7,
       "componentType": 5123,
-      "count": 2695,
-      "type": "VEC4"
-    },
-    {
-      "bufferView": 8,
-      "componentType": 5123,
-      "count": 2695,
-      "type": "VEC4"
-    },
-    {
-      "bufferView": 9,
-      "componentType": 5123,
-      "count": 14850,
+      "count": 43422,
       "type": "SCALAR"
     }
   ],
@@ -78,68 +66,56 @@
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 1024
+      "byteLength": 1088
     },
     {
       "buffer": 0,
-      "byteLength": 32340,
-      "byteOffset": 1024,
+      "byteLength": 108480,
+      "byteOffset": 1088,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 32340,
-      "byteOffset": 33364,
+      "byteLength": 108480,
+      "byteOffset": 109568,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 43120,
-      "byteOffset": 65704,
+      "byteLength": 144640,
+      "byteOffset": 218048,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 21560,
-      "byteOffset": 108824,
+      "byteLength": 72320,
+      "byteOffset": 362688,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 43120,
-      "byteOffset": 130384,
+      "byteLength": 144640,
+      "byteOffset": 435008,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 43120,
-      "byteOffset": 173504,
+      "byteLength": 72320,
+      "byteOffset": 579648,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 21560,
-      "byteOffset": 216624,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 21560,
-      "byteOffset": 238184,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 29700,
-      "byteOffset": 259744,
+      "byteLength": 86844,
+      "byteOffset": 651968,
       "target": 34963
     }
   ],
   "buffers": [
     {
-      "byteLength": 289444,
-      "name": "Xenogrub.bin",
-      "uri": "Xenogrub.bin"
+      "byteLength": 738812,
+      "name": "Monarch.bin",
+      "uri": "Monarch.bin"
     }
   ],
   "materials": [
@@ -151,27 +127,25 @@
     },
     {
       "extras": {
-        "Material Path": "materials/actors/larvaa/larvaa_maggot/larvaa_maggot.mat"
+        "Material Path": "materials/actors/larvaa/larvaa_monarch/larvaa_monarch.mat"
       },
-      "name": "Materials/Actors/Larvaa/Larvaa_Maggot/Larvaa_Maggot"
+      "name": "Materials/Actors/Larvaa/Larvaa_Monarch/Larvaa_Monarch"
     }
   ],
   "meshes": [
     {
-      "name": "LarvaA_Maggot:0",
+      "name": "LarvaA_Monarch:0",
       "primitives": [
         {
           "attributes": {
-            "JOINTS_0": 7,
-            "JOINTS_1": 8,
+            "JOINTS_0": 6,
             "NORMAL": 2,
             "POSITION": 1,
             "TANGENT": 3,
             "TEXCOORD_0": 4,
-            "WEIGHTS_0": 5,
-            "WEIGHTS_1": 6
+            "WEIGHTS_0": 5
           },
-          "indices": 9,
+          "indices": 7,
           "material": 1,
           "mode": 4
         }
@@ -182,7 +156,7 @@
     {
       "children": [
         1,
-        18
+        19
       ],
       "extras": {
         "Flags": 14,
@@ -210,7 +184,7 @@
     {
       "children": [
         2,
-        9
+        10
       ],
       "extras": {
         "Flags": 14,
@@ -346,7 +320,8 @@
     {
       "children": [
         7,
-        8
+        8,
+        9
       ],
       "extras": {
         "Flags": 14,
@@ -420,8 +395,32 @@
       ]
     },
     {
+      "extras": {
+        "Flags": 67108878,
+        "ID": 56,
+        "Parent ID": 20
+      },
+      "name": "LookAt_Bone_01",
+      "rotation": [
+        0.5730451345443726,
+        0.414204865694046,
+        0.5731069445610046,
+        -0.41424867510795593
+      ],
+      "scale": [
+        0.9999979734420776,
+        0.9999979734420776,
+        0.9999979734420776
+      ],
+      "translation": [
+        0.008351459167897701,
+        0.047340258955955505,
+        6.489753104688134e-06
+      ]
+    },
+    {
       "children": [
-        10
+        11
       ],
       "extras": {
         "Flags": 14,
@@ -448,7 +447,7 @@
     },
     {
       "children": [
-        11
+        12
       ],
       "extras": {
         "Flags": 14,
@@ -475,7 +474,7 @@
     },
     {
       "children": [
-        12
+        13
       ],
       "extras": {
         "Flags": 14,
@@ -502,7 +501,7 @@
     },
     {
       "children": [
-        13
+        14
       ],
       "extras": {
         "Flags": 14,
@@ -529,7 +528,7 @@
     },
     {
       "children": [
-        14
+        15
       ],
       "extras": {
         "Flags": 14,
@@ -556,7 +555,7 @@
     },
     {
       "children": [
-        15
+        16
       ],
       "extras": {
         "Flags": 14,
@@ -583,7 +582,7 @@
     },
     {
       "children": [
-        16
+        17
       ],
       "extras": {
         "Flags": 14,
@@ -610,7 +609,7 @@
     },
     {
       "children": [
-        17
+        18
       ],
       "extras": {
         "Flags": 14,
@@ -663,13 +662,13 @@
       "extras": {
         "Flags": 526,
         "Has GPU LODs": false,
-        "ID": 56,
-        "Material Path": "Materials\\Actors\\LarvaA\\LarvaA_Maggot\\LarvaA_Maggot.mat",
-        "NiIntegerExtraData:MaterialID": 1790786944,
+        "ID": 58,
+        "Material Path": "Materials\\Actors\\LarvaA\\LarvaA_Monarch\\LarvaA_Monarch.mat",
+        "NiIntegerExtraData:MaterialID": -1739240840,
         "Parent ID": 3
       },
       "mesh": 0,
-      "name": "LarvaA_Maggot:0",
+      "name": "LarvaA_Monarch:0",
       "rotation": [
         0.0,
         0.0,
@@ -701,22 +700,23 @@
     {
       "inverseBindMatrices": 0,
       "joints": [
-        3,
-        4,
-        2,
-        5,
-        6,
-        8,
-        7,
+        14,
+        15,
         17,
-        9,
+        16,
+        2,
         10,
         11,
         12,
         13,
-        14,
-        16,
-        15
+        18,
+        3,
+        4,
+        5,
+        6,
+        9,
+        8,
+        7
       ],
       "skeleton": 1
     }
