@@ -1,22 +1,22 @@
 {
 	"nodes": [
-	  "Root_",
-	  "COM",
-	  "C_Spine7",
-	  "C_Spine8",
-	  "C_Spine9",
-	  "C_Neck",
-	  "C_Head",
-	  "L_Mouth1",
-	  "R_Mouth1",
-	  "C_Spine6",
-	  "C_Spine5",
-	  "C_Spine4",
-	  "C_Spine3",
-	  "C_Spine2",
-	  "C_Spine1",
-	  "C_Spine",
-	  "C_hips",
-	  "C_hips1"
+		"Root_",
+		"COM",
+		"C_Spine7",
+		"C_Spine8",
+		"C_Spine9",
+		"C_Neck",
+		"C_Head",
+		"L_Mouth1",
+		"R_Mouth1",
+		"C_Spine6",
+		"C_Spine5",
+		"C_Spine4",
+		"C_Spine3",
+		"C_Spine2",
+		"C_Spine1",
+		"C_Spine",
+		"C_hips",
+		"C_hips1"
 	]
-  }
+}
