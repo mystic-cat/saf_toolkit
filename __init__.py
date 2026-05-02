@@ -1,7 +1,7 @@
 bl_info = {
     "name": "SAF Toolkit",
     "author": "Your Name",
-    "version": (1, 6, 7),
+    "version": (1, 6, 8),
     "blender": (3, 0, 0),
     "location": "View3D > Sidebar > SAF Toolkit",
     "description": "Automates hierarchy cleanup, GLTF export, JSON updating, and model importing for SAF.",
