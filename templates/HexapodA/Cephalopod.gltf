@@ -237,8 +237,7 @@
     },
     {
       "children": [
-        3,
-        51
+        3
       ],
       "extras": {
         "Flags": 14,
@@ -267,7 +266,8 @@
       "children": [
         4,
         43,
-        47
+        47,
+        51
       ],
       "extras": {
         "Flags": 14,
@@ -722,7 +722,8 @@
     },
     {
       "children": [
-        21
+        21,
+        23
       ],
       "extras": {
         "Flags": 14,
@@ -749,8 +750,7 @@
     },
     {
       "children": [
-        22,
-        23
+        22
       ],
       "extras": {
         "Flags": 14,
@@ -803,7 +803,7 @@
       "extras": {
         "Flags": 67108878,
         "ID": 218,
-        "Parent ID": 63
+        "Parent ID": 60
       },
       "name": "L_LegFront002_Spring",
       "rotation": [
@@ -1197,7 +1197,8 @@
     },
     {
       "children": [
-        39
+        39,
+        41
       ],
       "extras": {
         "Flags": 14,
@@ -1224,8 +1225,7 @@
     },
     {
       "children": [
-        40,
-        41
+        40
       ],
       "extras": {
         "Flags": 14,
@@ -1253,7 +1253,7 @@
     {
       "extras": {
         "Flags": 67108878,
-        "ID": 220,
+        "ID": 222,
         "Parent ID": 111
       },
       "name": "R_LegFront003_Spring",
@@ -1277,8 +1277,8 @@
     {
       "extras": {
         "Flags": 67108878,
-        "ID": 222,
-        "Parent ID": 111
+        "ID": 220,
+        "Parent ID": 108
       },
       "name": "R_LegFront002_Spring",
       "rotation": [
@@ -1536,7 +1536,7 @@
       "extras": {
         "Flags": 67108878,
         "ID": 224,
-        "Parent ID": 9
+        "Parent ID": 12
       },
       "name": "C_Head_Spring",
       "rotation": [
