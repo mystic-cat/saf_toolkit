@@ -1,0 +1,547 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 4,
+      "type": "MAT4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 5371,
+      "max": [
+        0.15588854253292084,
+        0.15698722004890442,
+        1.9354227781295776
+      ],
+      "min": [
+        -0.15613269805908203,
+        -0.15613269805908203,
+        1.6408581733703613
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 5371,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 5371,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 5371,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 5371,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5123,
+      "count": 5371,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5123,
+      "count": 23907,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "NifSkope glTF 2.0 Exporter v1.2",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 256
+    },
+    {
+      "buffer": 0,
+      "byteLength": 64452,
+      "byteOffset": 256,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 64452,
+      "byteOffset": 64708,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 85936,
+      "byteOffset": 129160,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 42968,
+      "byteOffset": 215096,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 85936,
+      "byteOffset": 258064,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 42968,
+      "byteOffset": 344000,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 47814,
+      "byteOffset": 386968,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 434782,
+      "name": "Blob Puffball.bin",
+      "uri": "Blob Puffball.bin"
+    }
+  ],
+  "materials": [
+    {
+      "extras": {
+        "Material Path": "Default"
+      },
+      "name": "Default"
+    },
+    {
+      "extras": {
+        "Material Path": "materials/common/utility/utilitygrey01.mat"
+      },
+      "name": "Materials/Common/Utility/Utilitygrey01"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "FloaterA_Blob_Puffball:0",
+      "primitives": [
+        {
+          "attributes": {
+            "JOINTS_0": 6,
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TANGENT": 3,
+            "TEXCOORD_0": 4,
+            "WEIGHTS_0": 5
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        13
+      ],
+      "extras": {
+        "Flags": 14,
+        "ID": 3,
+        "Parent ID": 0
+      },
+      "name": "Root",
+      "rotation": [
+        -0.7071067690849304,
+        0.0,
+        0.0,
+        0.7071067690849304
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "children": [
+        2,
+        4,
+        11,
+        12
+      ],
+      "extras": {
+        "Flags": 14,
+        "ID": 5,
+        "Parent ID": 3
+      },
+      "name": "COM",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        1.800459861755371
+      ]
+    },
+    {
+      "children": [
+        3
+      ],
+      "extras": {
+        "Flags": 14,
+        "ID": 9,
+        "Parent ID": 5
+      },
+      "name": "C_spine",
+      "rotation": [
+        0.0,
+        -0.7071034908294678,
+        0.0,
+        0.7071100473403931
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 14,
+        "ID": 12,
+        "Parent ID": 9
+      },
+      "name": "xC_spine",
+      "rotation": [
+        5.245208285487024e-07,
+        -3.576278459149762e-06,
+        2.344790811167896e-12,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.1484997570514679,
+        3.9239598237372775e-08,
+        -4.577659922233579e-07
+      ]
+    },
+    {
+      "children": [
+        5,
+        10
+      ],
+      "extras": {
+        "Flags": 14,
+        "ID": 14,
+        "Parent ID": 5
+      },
+      "name": "C_hips",
+      "rotation": [
+        3.392837584215158e-07,
+        0.7071033716201782,
+        -3.392805467683502e-07,
+        0.7071101665496826
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        -2.000479959463064e-08,
+        0.0
+      ]
+    },
+    {
+      "children": [
+        6
+      ],
+      "extras": {
+        "Flags": 14,
+        "ID": 17,
+        "Parent ID": 14
+      },
+      "name": "C_hips2",
+      "rotation": [
+        -2.384185791015625e-06,
+        1.430511474609375e-06,
+        1.0684954657169676e-11,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.3977999687194824,
+        -1.9533253237113968e-07,
+        -2.2888182229507947e-06
+      ]
+    },
+    {
+      "children": [
+        7
+      ],
+      "extras": {
+        "Flags": 14,
+        "ID": 20,
+        "Parent ID": 17
+      },
+      "name": "C_hips3",
+      "rotation": [
+        -4.76837158203125e-06,
+        2.980229965032777e-07,
+        1.648425319855651e-11,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.3994598388671875,
+        1.8131551087208209e-06,
+        -9.329872909802361e-07
+      ]
+    },
+    {
+      "children": [
+        8
+      ],
+      "extras": {
+        "Flags": 14,
+        "ID": 23,
+        "Parent ID": 20
+      },
+      "name": "C_hips4",
+      "rotation": [
+        -2.384185791015625e-06,
+        1.0132789611816406e-06,
+        1.4010754362248079e-11,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.36256805062294006,
+        9.43586883295211e-07,
+        6.044515998837596e-08
+      ]
+    },
+    {
+      "children": [
+        9
+      ],
+      "extras": {
+        "Flags": 14,
+        "ID": 26,
+        "Parent ID": 23
+      },
+      "name": "C_Hips5",
+      "rotation": [
+        -1.430511474609375e-06,
+        8.344651405423065e-07,
+        1.1140376815488295e-11,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.33581995964050293,
+        -3.1648903586756205e-06,
+        -3.6195688153384253e-06
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 14,
+        "ID": 29,
+        "Parent ID": 26
+      },
+      "name": "xC_Hips",
+      "rotation": [
+        -7.629395440744702e-06,
+        2.9802333756379085e-07,
+        1.1538879227113163e-11,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.2765215337276459,
+        2.848467772764707e-07,
+        -5.7220457705398076e-08
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 14,
+        "ID": 31,
+        "Parent ID": 14
+      },
+      "name": "C_BodyDeform2_Def",
+      "rotation": [
+        -1.6109943240527613e-12,
+        -0.7071033120155334,
+        -1.6109788199616948e-12,
+        0.7071101665496826
+      ],
+      "scale": [
+        0.9999999403953552,
+        0.9999999403953552,
+        0.9999999403953552
+      ],
+      "translation": [
+        0.11936965584754944,
+        1.3087570138736737e-08,
+        -1.073332896339707e-06
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 14,
+        "ID": 33,
+        "Parent ID": 5
+      },
+      "name": "C_BodyDeform_Def",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 14,
+        "ID": 35,
+        "Parent ID": 5
+      },
+      "name": "DirectAt",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -1.531513333929979e-07,
+        1.577721775177193e-32,
+        -5.996703839628026e-05
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 526,
+        "Has GPU LODs": false,
+        "ID": 40,
+        "Material Path": "Materials\\Common\\Utility\\UtilityGrey01.mat",
+        "NiIntegerExtraData:MaterialID": 2106610681,
+        "Parent ID": 3
+      },
+      "mesh": 0,
+      "name": "FloaterA_Blob_Puffball:0",
+      "rotation": [
+        3.0616171314629196e-17,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "skin": 0,
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "name": "ExportScene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "skins": [
+    {
+      "inverseBindMatrices": 0,
+      "joints": [
+        11,
+        2,
+        10,
+        4
+      ],
+      "skeleton": 1
+    }
+  ]
+}
