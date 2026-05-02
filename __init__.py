@@ -1,7 +1,11 @@
 bl_info = {
     "name": "SAF Toolkit",
     "author": "Your Name",
+<<<<<<< Updated upstream
     "version": (1, 7, 1),
+=======
+    "version": (1, 7, 3),
+>>>>>>> Stashed changes
     "blender": (3, 0, 0),
     "location": "View3D > Sidebar > SAF Toolkit",
     "description": "Automates hierarchy cleanup, GLTF export, JSON updating, and model importing for SAF.",
