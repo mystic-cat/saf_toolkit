@@ -3,71 +3,199 @@
     {
       "bufferView": 0,
       "componentType": 5126,
-      "count": 54,
+      "count": 22,
       "type": "MAT4"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 20618,
-      "max": [
-        1.0113834142684937,
-        3.8300728797912598,
-        3.059053421020508
-      ],
-      "min": [
-        -1.0113834142684937,
-        -0.0012207403779029846,
-        -1.224890947341919
-      ],
-      "type": "VEC3"
+      "count": 42,
+      "type": "MAT4"
     },
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 20618,
-      "type": "VEC3"
+      "count": 6,
+      "type": "MAT4"
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 20618,
-      "type": "VEC4"
+      "count": 12626,
+      "max": [
+        0.9431440234184265,
+        0.8890652060508728,
+        3.1718497276306152
+      ],
+      "min": [
+        -0.9431440234184265,
+        -1.419110655784607,
+        0.9787896275520325
+      ],
+      "type": "VEC3"
     },
     {
       "bufferView": 4,
       "componentType": 5126,
-      "count": 20618,
-      "type": "VEC2"
+      "count": 12626,
+      "type": "VEC3"
     },
     {
       "bufferView": 5,
       "componentType": 5126,
-      "count": 20618,
+      "count": 12626,
       "type": "VEC4"
     },
     {
       "bufferView": 6,
       "componentType": 5126,
-      "count": 20618,
-      "type": "VEC4"
+      "count": 12626,
+      "type": "VEC2"
     },
     {
       "bufferView": 7,
-      "componentType": 5123,
-      "count": 20618,
+      "componentType": 5126,
+      "count": 12626,
       "type": "VEC4"
     },
     {
       "bufferView": 8,
-      "componentType": 5123,
-      "count": 20618,
+      "componentType": 5126,
+      "count": 12626,
       "type": "VEC4"
     },
     {
       "bufferView": 9,
       "componentType": 5123,
-      "count": 105786,
+      "count": 12626,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5123,
+      "count": 12626,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5123,
+      "count": 57294,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 10244,
+      "max": [
+        0.9745170474052429,
+        0.7319559454917908,
+        2.383007287979126
+      ],
+      "min": [
+        -0.9745170474052429,
+        -1.502487301826477,
+        -0.0028077028691768646
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 10244,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5126,
+      "count": 10244,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5126,
+      "count": 10244,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 16,
+      "componentType": 5126,
+      "count": 10244,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 17,
+      "componentType": 5126,
+      "count": 10244,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 18,
+      "componentType": 5123,
+      "count": 10244,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 19,
+      "componentType": 5123,
+      "count": 10244,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 20,
+      "componentType": 5123,
+      "count": 46782,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 21,
+      "componentType": 5126,
+      "count": 1118,
+      "max": [
+        0.9316690564155579,
+        -0.06860560923814774,
+        1.8388012647628784
+      ],
+      "min": [
+        -0.9316690564155579,
+        -1.2038941383361816,
+        1.695608377456665
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 22,
+      "componentType": 5126,
+      "count": 1118,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 23,
+      "componentType": 5126,
+      "count": 1118,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 24,
+      "componentType": 5126,
+      "count": 1118,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 25,
+      "componentType": 5126,
+      "count": 1118,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 26,
+      "componentType": 5123,
+      "count": 1118,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 27,
+      "componentType": 5123,
+      "count": 5628,
       "type": "SCALAR"
     }
   ],
@@ -78,68 +206,174 @@
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 3456
+      "byteLength": 1408
     },
     {
       "buffer": 0,
-      "byteLength": 247416,
-      "byteOffset": 3456,
+      "byteLength": 2688,
+      "byteOffset": 1408
+    },
+    {
+      "buffer": 0,
+      "byteLength": 384,
+      "byteOffset": 4096
+    },
+    {
+      "buffer": 0,
+      "byteLength": 151512,
+      "byteOffset": 4480,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 247416,
-      "byteOffset": 250872,
+      "byteLength": 151512,
+      "byteOffset": 155992,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 329888,
-      "byteOffset": 498288,
+      "byteLength": 202016,
+      "byteOffset": 307504,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 164944,
-      "byteOffset": 828176,
+      "byteLength": 101008,
+      "byteOffset": 509520,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 329888,
-      "byteOffset": 993120,
+      "byteLength": 202016,
+      "byteOffset": 610528,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 329888,
-      "byteOffset": 1323008,
+      "byteLength": 202016,
+      "byteOffset": 812544,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 164944,
-      "byteOffset": 1652896,
+      "byteLength": 101008,
+      "byteOffset": 1014560,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 164944,
-      "byteOffset": 1817840,
+      "byteLength": 101008,
+      "byteOffset": 1115568,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 211572,
-      "byteOffset": 1982784,
+      "byteLength": 114588,
+      "byteOffset": 1216576,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 122928,
+      "byteOffset": 1331164,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 122928,
+      "byteOffset": 1454092,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 163904,
+      "byteOffset": 1577020,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 81952,
+      "byteOffset": 1740924,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 163904,
+      "byteOffset": 1822876,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 163904,
+      "byteOffset": 1986780,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 81952,
+      "byteOffset": 2150684,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 81952,
+      "byteOffset": 2232636,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 93564,
+      "byteOffset": 2314588,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 13416,
+      "byteOffset": 2408152,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 13416,
+      "byteOffset": 2421568,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 17888,
+      "byteOffset": 2434984,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8944,
+      "byteOffset": 2452872,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 17888,
+      "byteOffset": 2461816,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8944,
+      "byteOffset": 2479704,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 11256,
+      "byteOffset": 2488648,
       "target": 34963
     }
   ],
   "buffers": [
     {
-      "byteLength": 2194356,
-      "name": "Cricket.bin",
-      "uri": "Cricket.bin"
+      "byteLength": 2499904,
+      "name": "Radar Face.bin",
+      "uri": "Radar Face.bin"
     }
   ],
   "materials": [
@@ -151,28 +385,72 @@
     },
     {
       "extras": {
-        "Material Path": "materials/actors/mantida/mantida_cricket/mantida_cricket.mat"
+        "Material Path": "materials/actors/mantida/mantida_radarface/mantida_radarface01.mat"
       },
-      "name": "Materials/Actors/Mantida/Mantida_Cricket/Mantida_Cricket"
+      "name": "Materials/Actors/Mantida/Mantida_Radarface/Mantida_Radarface01"
+    },
+    {
+      "extras": {
+        "Material Path": "materials/actors/mantida/mantida_radarface/mantida_radarface02.mat"
+      },
+      "name": "Materials/Actors/Mantida/Mantida_Radarface/Mantida_Radarface02"
     }
   ],
   "meshes": [
     {
-      "name": "MantidA_Cricket:0",
+      "name": "MantidA_RadarFace:0",
       "primitives": [
         {
           "attributes": {
-            "JOINTS_0": 7,
-            "JOINTS_1": 8,
-            "NORMAL": 2,
-            "POSITION": 1,
-            "TANGENT": 3,
-            "TEXCOORD_0": 4,
-            "WEIGHTS_0": 5,
-            "WEIGHTS_1": 6
+            "JOINTS_0": 9,
+            "JOINTS_1": 10,
+            "NORMAL": 4,
+            "POSITION": 3,
+            "TANGENT": 5,
+            "TEXCOORD_0": 6,
+            "WEIGHTS_0": 7,
+            "WEIGHTS_1": 8
           },
-          "indices": 9,
+          "indices": 11,
           "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "MantidA_RadarFace:1",
+      "primitives": [
+        {
+          "attributes": {
+            "JOINTS_0": 18,
+            "JOINTS_1": 19,
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TANGENT": 14,
+            "TEXCOORD_0": 15,
+            "WEIGHTS_0": 16,
+            "WEIGHTS_1": 17
+          },
+          "indices": 20,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "MantidA_RadarFace_Wings:1",
+      "primitives": [
+        {
+          "attributes": {
+            "JOINTS_0": 26,
+            "NORMAL": 22,
+            "POSITION": 21,
+            "TANGENT": 23,
+            "TEXCOORD_0": 24,
+            "WEIGHTS_0": 25
+          },
+          "indices": 27,
+          "material": 2,
           "mode": 4
         }
       ]
@@ -182,6 +460,8 @@
     {
       "children": [
         1,
+        74,
+        75,
         76
       ],
       "extras": {
@@ -1613,8 +1893,8 @@
     {
       "children": [
         55,
-        68,
-        72
+        66,
+        70
       ],
       "extras": {
         "Flags": 14,
@@ -1642,8 +1922,8 @@
     {
       "children": [
         56,
-        62,
-        65
+        60,
+        63
       ],
       "extras": {
         "Flags": 14,
@@ -1697,9 +1977,7 @@
     },
     {
       "children": [
-        58,
-        60,
-        61
+        58
       ],
       "extras": {
         "Flags": 14,
@@ -1776,56 +2054,8 @@
       ]
     },
     {
-      "extras": {
-        "Flags": 67108878,
-        "ID": 229,
-        "Parent ID": 171
-      },
-      "name": "LookAt_Tail_R",
-      "rotation": [
-        0.4962441623210907,
-        0.552966296672821,
-        0.49109354615211487,
-        0.45474961400032043
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "translation": [
-        0.20876693725585938,
-        -0.057662200182676315,
-        0.26247140765190125
-      ]
-    },
-    {
-      "extras": {
-        "Flags": 67108878,
-        "ID": 231,
-        "Parent ID": 171
-      },
-      "name": "LookAt_Tail_L",
-      "rotation": [
-        0.44703415036201477,
-        0.4981237053871155,
-        0.5451575517654419,
-        0.5048133134841919
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "translation": [
-        0.15947173535823822,
-        -0.05306854099035263,
-        -0.24878938496112823
-      ]
-    },
-    {
       "children": [
-        63
+        61
       ],
       "extras": {
         "Flags": 14,
@@ -1852,7 +2082,7 @@
     },
     {
       "children": [
-        64
+        62
       ],
       "extras": {
         "Flags": 14,
@@ -1903,7 +2133,7 @@
     },
     {
       "children": [
-        66
+        64
       ],
       "extras": {
         "Flags": 14,
@@ -1930,7 +2160,7 @@
     },
     {
       "children": [
-        67
+        65
       ],
       "extras": {
         "Flags": 14,
@@ -1981,7 +2211,7 @@
     },
     {
       "children": [
-        69
+        67
       ],
       "extras": {
         "Flags": 14,
@@ -2008,7 +2238,7 @@
     },
     {
       "children": [
-        70
+        68
       ],
       "extras": {
         "Flags": 14,
@@ -2035,7 +2265,7 @@
     },
     {
       "children": [
-        71
+        69
       ],
       "extras": {
         "Flags": 14,
@@ -2086,7 +2316,7 @@
     },
     {
       "children": [
-        73
+        71
       ],
       "extras": {
         "Flags": 14,
@@ -2113,7 +2343,7 @@
     },
     {
       "children": [
-        74
+        72
       ],
       "extras": {
         "Flags": 14,
@@ -2140,7 +2370,7 @@
     },
     {
       "children": [
-        75
+        73
       ],
       "extras": {
         "Flags": 14,
@@ -2193,18 +2423,18 @@
       "extras": {
         "Flags": 526,
         "Has GPU LODs": false,
-        "ID": 233,
-        "Material Path": "Materials\\Actors\\MantidA\\MantidA_Cricket\\MantidA_Cricket.mat",
-        "NiIntegerExtraData:MaterialID": -714486923,
+        "ID": 229,
+        "Material Path": "Materials\\Actors\\MantidA\\MantidA_RadarFace\\MantidA_RadarFace01.mat",
+        "NiIntegerExtraData:MaterialID": -1830313995,
         "Parent ID": 3
       },
       "mesh": 0,
-      "name": "MantidA_Cricket:0",
+      "name": "MantidA_RadarFace:0",
       "rotation": [
-        0.7071067094802856,
         0.0,
         0.0,
-        0.7071067690849304
+        0.0,
+        1.0
       ],
       "scale": [
         1.0,
@@ -2212,6 +2442,64 @@
         1.0
       ],
       "skin": 0,
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 526,
+        "Has GPU LODs": false,
+        "ID": 235,
+        "Material Path": "Materials\\Actors\\MantidA\\MantidA_RadarFace\\MantidA_RadarFace02.mat",
+        "NiIntegerExtraData:MaterialID": -716708571,
+        "Parent ID": 3
+      },
+      "mesh": 1,
+      "name": "MantidA_RadarFace:1",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "skin": 1,
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 526,
+        "Has GPU LODs": false,
+        "ID": 241,
+        "Material Path": "Materials\\Actors\\MantidA\\MantidA_RadarFace\\MantidA_RadarFace02.mat",
+        "NiIntegerExtraData:MaterialID": -716708571,
+        "Parent ID": 3
+      },
+      "mesh": 2,
+      "name": "MantidA_RadarFace_Wings:1",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "skin": 2,
       "translation": [
         0.0,
         0.0,
@@ -2231,60 +2519,88 @@
     {
       "inverseBindMatrices": 0,
       "joints": [
-        30,
-        31,
         4,
         5,
-        28,
-        32,
-        29,
-        6,
-        7,
-        8,
-        9,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        43,
-        42,
-        41,
-        40,
+        33,
         3,
         2,
-        23,
         54,
+        47,
+        50,
+        66,
+        28,
+        40,
         55,
-        72,
         56,
         57,
-        75,
-        58,
-        61,
-        36,
-        35,
-        26,
-        24,
-        25,
-        34,
-        27,
+        60,
+        63,
+        6,
+        9,
+        7,
+        8,
+        32,
+        70
+      ],
+      "skeleton": 1
+    },
+    {
+      "inverseBindMatrices": 1,
+      "joints": [
+        4,
+        5,
         33,
+        3,
+        2,
+        54,
+        47,
+        50,
+        66,
+        40,
+        55,
+        56,
+        57,
+        60,
+        63,
+        6,
+        9,
+        7,
+        8,
+        34,
+        35,
+        36,
+        67,
         68,
         69,
-        11,
+        23,
+        24,
+        48,
+        49,
         70,
-        12,
+        41,
+        42,
+        43,
         71,
-        13,
-        14,
-        15,
-        60,
-        16,
+        72,
         73,
-        74,
-        59
+        51,
+        52,
+        61,
+        62,
+        64,
+        65
+      ],
+      "skeleton": 1
+    },
+    {
+      "inverseBindMatrices": 2,
+      "joints": [
+        37,
+        38,
+        39,
+        44,
+        45,
+        46
       ],
       "skeleton": 1
     }
