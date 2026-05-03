@@ -3,71 +3,71 @@
     {
       "bufferView": 0,
       "componentType": 5126,
-      "count": 54,
+      "count": 53,
       "type": "MAT4"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 20618,
+      "count": 20698,
       "max": [
-        1.0113834142684937,
-        3.8300728797912598,
-        3.059053421020508
+        0.9610888957977295,
+        1.2015748023986816,
+        3.7955260276794434
       ],
       "min": [
-        -1.0113834142684937,
-        -0.0012207403779029846,
-        -1.224890947341919
+        -0.9610888957977295,
+        -3.2763450145721436,
+        -0.012451551854610443
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 20618,
+      "count": 20698,
       "type": "VEC3"
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 20618,
+      "count": 20698,
       "type": "VEC4"
     },
     {
       "bufferView": 4,
       "componentType": 5126,
-      "count": 20618,
+      "count": 20698,
       "type": "VEC2"
     },
     {
       "bufferView": 5,
       "componentType": 5126,
-      "count": 20618,
+      "count": 20698,
       "type": "VEC4"
     },
     {
       "bufferView": 6,
       "componentType": 5126,
-      "count": 20618,
+      "count": 20698,
       "type": "VEC4"
     },
     {
       "bufferView": 7,
       "componentType": 5123,
-      "count": 20618,
+      "count": 20698,
       "type": "VEC4"
     },
     {
       "bufferView": 8,
       "componentType": 5123,
-      "count": 20618,
+      "count": 20698,
       "type": "VEC4"
     },
     {
       "bufferView": 9,
       "componentType": 5123,
-      "count": 105786,
+      "count": 103542,
       "type": "SCALAR"
     }
   ],
@@ -78,68 +78,68 @@
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 3456
+      "byteLength": 3392
     },
     {
       "buffer": 0,
-      "byteLength": 247416,
-      "byteOffset": 3456,
+      "byteLength": 248376,
+      "byteOffset": 3392,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 247416,
-      "byteOffset": 250872,
+      "byteLength": 248376,
+      "byteOffset": 251768,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 329888,
-      "byteOffset": 498288,
+      "byteLength": 331168,
+      "byteOffset": 500144,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 164944,
-      "byteOffset": 828176,
+      "byteLength": 165584,
+      "byteOffset": 831312,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 329888,
-      "byteOffset": 993120,
+      "byteLength": 331168,
+      "byteOffset": 996896,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 329888,
-      "byteOffset": 1323008,
+      "byteLength": 331168,
+      "byteOffset": 1328064,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 164944,
-      "byteOffset": 1652896,
+      "byteLength": 165584,
+      "byteOffset": 1659232,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 164944,
-      "byteOffset": 1817840,
+      "byteLength": 165584,
+      "byteOffset": 1824816,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 211572,
-      "byteOffset": 1982784,
+      "byteLength": 207084,
+      "byteOffset": 1990400,
       "target": 34963
     }
   ],
   "buffers": [
     {
-      "byteLength": 2194356,
-      "name": "Cricket.bin",
-      "uri": "Cricket.bin"
+      "byteLength": 2197484,
+      "name": "Thorn Mantis.bin",
+      "uri": "Thorn Mantis.bin"
     }
   ],
   "materials": [
@@ -151,14 +151,14 @@
     },
     {
       "extras": {
-        "Material Path": "materials/actors/mantida/mantida_cricket/mantida_cricket.mat"
+        "Material Path": "materials/actors/mantida/mantida_thornmantis/mantida_thornmantis.mat"
       },
-      "name": "Materials/Actors/Mantida/Mantida_Cricket/Mantida_Cricket"
+      "name": "Materials/Actors/Mantida/Mantida_Thornmantis/Mantida_Thornmantis"
     }
   ],
   "meshes": [
     {
-      "name": "MantidA_Cricket:0",
+      "name": "MantidA_ThornMantis:0",
       "primitives": [
         {
           "attributes": {
@@ -182,7 +182,7 @@
     {
       "children": [
         1,
-        76
+        74
       ],
       "extras": {
         "Flags": 14,
@@ -1613,8 +1613,8 @@
     {
       "children": [
         55,
-        68,
-        72
+        66,
+        70
       ],
       "extras": {
         "Flags": 14,
@@ -1642,8 +1642,8 @@
     {
       "children": [
         56,
-        62,
-        65
+        60,
+        63
       ],
       "extras": {
         "Flags": 14,
@@ -1697,9 +1697,7 @@
     },
     {
       "children": [
-        58,
-        60,
-        61
+        58
       ],
       "extras": {
         "Flags": 14,
@@ -1776,56 +1774,8 @@
       ]
     },
     {
-      "extras": {
-        "Flags": 67108878,
-        "ID": 229,
-        "Parent ID": 171
-      },
-      "name": "LookAt_Tail_R",
-      "rotation": [
-        0.4962441623210907,
-        0.552966296672821,
-        0.49109354615211487,
-        0.45474961400032043
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "translation": [
-        0.20876693725585938,
-        -0.057662200182676315,
-        0.26247140765190125
-      ]
-    },
-    {
-      "extras": {
-        "Flags": 67108878,
-        "ID": 231,
-        "Parent ID": 171
-      },
-      "name": "LookAt_Tail_L",
-      "rotation": [
-        0.44703415036201477,
-        0.4981237053871155,
-        0.5451575517654419,
-        0.5048133134841919
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "translation": [
-        0.15947173535823822,
-        -0.05306854099035263,
-        -0.24878938496112823
-      ]
-    },
-    {
       "children": [
-        63
+        61
       ],
       "extras": {
         "Flags": 14,
@@ -1852,7 +1802,7 @@
     },
     {
       "children": [
-        64
+        62
       ],
       "extras": {
         "Flags": 14,
@@ -1903,7 +1853,7 @@
     },
     {
       "children": [
-        66
+        64
       ],
       "extras": {
         "Flags": 14,
@@ -1930,7 +1880,7 @@
     },
     {
       "children": [
-        67
+        65
       ],
       "extras": {
         "Flags": 14,
@@ -1981,7 +1931,7 @@
     },
     {
       "children": [
-        69
+        67
       ],
       "extras": {
         "Flags": 14,
@@ -2008,7 +1958,7 @@
     },
     {
       "children": [
-        70
+        68
       ],
       "extras": {
         "Flags": 14,
@@ -2035,7 +1985,7 @@
     },
     {
       "children": [
-        71
+        69
       ],
       "extras": {
         "Flags": 14,
@@ -2086,7 +2036,7 @@
     },
     {
       "children": [
-        73
+        71
       ],
       "extras": {
         "Flags": 14,
@@ -2113,7 +2063,7 @@
     },
     {
       "children": [
-        74
+        72
       ],
       "extras": {
         "Flags": 14,
@@ -2140,7 +2090,7 @@
     },
     {
       "children": [
-        75
+        73
       ],
       "extras": {
         "Flags": 14,
@@ -2193,18 +2143,18 @@
       "extras": {
         "Flags": 526,
         "Has GPU LODs": false,
-        "ID": 233,
-        "Material Path": "Materials\\Actors\\MantidA\\MantidA_Cricket\\MantidA_Cricket.mat",
-        "NiIntegerExtraData:MaterialID": -714486923,
+        "ID": 229,
+        "Material Path": "Materials\\Actors\\MantidA\\MantidA_ThornMantis\\MantidA_ThornMantis.mat",
+        "NiIntegerExtraData:MaterialID": -64512926,
         "Parent ID": 3
       },
       "mesh": 0,
-      "name": "MantidA_Cricket:0",
+      "name": "MantidA_ThornMantis:0",
       "rotation": [
-        0.7071067094802856,
         0.0,
         0.0,
-        0.7071067690849304
+        0.0,
+        1.0
       ],
       "scale": [
         1.0,
@@ -2231,60 +2181,59 @@
     {
       "inverseBindMatrices": 0,
       "joints": [
-        30,
-        31,
+        41,
+        57,
+        58,
+        59,
+        68,
+        69,
+        67,
+        2,
+        54,
+        55,
+        56,
+        3,
         4,
-        5,
-        28,
-        32,
         29,
+        32,
         6,
+        28,
+        5,
+        30,
         7,
-        8,
+        31,
+        40,
+        34,
+        35,
+        36,
+        33,
+        24,
         9,
+        10,
+        8,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        23,
+        27,
+        66,
+        70,
         17,
         18,
         19,
         20,
         21,
         22,
-        43,
         42,
-        41,
-        40,
-        3,
-        2,
-        23,
-        54,
-        55,
-        72,
-        56,
-        57,
-        75,
-        58,
-        61,
-        36,
-        35,
-        26,
-        24,
-        25,
-        34,
-        27,
-        33,
-        68,
-        69,
-        11,
-        70,
-        12,
         71,
-        13,
-        14,
-        15,
-        60,
-        16,
+        43,
+        72,
         73,
-        74,
-        59
+        25,
+        26
       ],
       "skeleton": 1
     }

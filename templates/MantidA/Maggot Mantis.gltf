@@ -3,71 +3,71 @@
     {
       "bufferView": 0,
       "componentType": 5126,
-      "count": 54,
+      "count": 38,
       "type": "MAT4"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 20618,
+      "count": 17153,
       "max": [
-        1.0113834142684937,
-        3.8300728797912598,
-        3.059053421020508
+        0.9808648824691772,
+        1.2015748023986816,
+        2.691122055053711
       ],
       "min": [
-        -1.0113834142684937,
-        -0.0012207403779029846,
-        -1.224890947341919
+        -0.9808648824691772,
+        -2.2133243083953857,
+        -0.0004882961511611938
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 20618,
+      "count": 17153,
       "type": "VEC3"
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 20618,
+      "count": 17153,
       "type": "VEC4"
     },
     {
       "bufferView": 4,
       "componentType": 5126,
-      "count": 20618,
+      "count": 17153,
       "type": "VEC2"
     },
     {
       "bufferView": 5,
       "componentType": 5126,
-      "count": 20618,
+      "count": 17153,
       "type": "VEC4"
     },
     {
       "bufferView": 6,
       "componentType": 5126,
-      "count": 20618,
+      "count": 17153,
       "type": "VEC4"
     },
     {
       "bufferView": 7,
       "componentType": 5123,
-      "count": 20618,
+      "count": 17153,
       "type": "VEC4"
     },
     {
       "bufferView": 8,
       "componentType": 5123,
-      "count": 20618,
+      "count": 17153,
       "type": "VEC4"
     },
     {
       "bufferView": 9,
       "componentType": 5123,
-      "count": 105786,
+      "count": 91422,
       "type": "SCALAR"
     }
   ],
@@ -78,68 +78,68 @@
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 3456
+      "byteLength": 2432
     },
     {
       "buffer": 0,
-      "byteLength": 247416,
-      "byteOffset": 3456,
+      "byteLength": 205836,
+      "byteOffset": 2432,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 247416,
-      "byteOffset": 250872,
+      "byteLength": 205836,
+      "byteOffset": 208268,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 329888,
-      "byteOffset": 498288,
+      "byteLength": 274448,
+      "byteOffset": 414104,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 164944,
-      "byteOffset": 828176,
+      "byteLength": 137224,
+      "byteOffset": 688552,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 329888,
-      "byteOffset": 993120,
+      "byteLength": 274448,
+      "byteOffset": 825776,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 329888,
-      "byteOffset": 1323008,
+      "byteLength": 274448,
+      "byteOffset": 1100224,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 164944,
-      "byteOffset": 1652896,
+      "byteLength": 137224,
+      "byteOffset": 1374672,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 164944,
-      "byteOffset": 1817840,
+      "byteLength": 137224,
+      "byteOffset": 1511896,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 211572,
-      "byteOffset": 1982784,
+      "byteLength": 182844,
+      "byteOffset": 1649120,
       "target": 34963
     }
   ],
   "buffers": [
     {
-      "byteLength": 2194356,
-      "name": "Cricket.bin",
-      "uri": "Cricket.bin"
+      "byteLength": 1831964,
+      "name": "Maggot Mantis.bin",
+      "uri": "Maggot Mantis.bin"
     }
   ],
   "materials": [
@@ -151,14 +151,14 @@
     },
     {
       "extras": {
-        "Material Path": "materials/actors/mantida/mantida_cricket/mantida_cricket.mat"
+        "Material Path": "materials/actors/mantida/mantida_maggotmantis/mantida_maggotmantis.mat"
       },
-      "name": "Materials/Actors/Mantida/Mantida_Cricket/Mantida_Cricket"
+      "name": "Materials/Actors/Mantida/Mantida_Maggotmantis/Mantida_Maggotmantis"
     }
   ],
   "meshes": [
     {
-      "name": "MantidA_Cricket:0",
+      "name": "MantidA_MaggotMantis:0",
       "primitives": [
         {
           "attributes": {
@@ -182,7 +182,7 @@
     {
       "children": [
         1,
-        76
+        79
       ],
       "extras": {
         "Flags": 14,
@@ -210,7 +210,7 @@
     {
       "children": [
         2,
-        54
+        56
       ],
       "extras": {
         "Flags": 14,
@@ -264,7 +264,9 @@
     },
     {
       "children": [
-        4
+        4,
+        54,
+        55
       ],
       "extras": {
         "Flags": 14,
@@ -1611,10 +1613,61 @@
       ]
     },
     {
+      "extras": {
+        "Flags": 67108878,
+        "ID": 229,
+        "Parent ID": 12
+      },
+      "name": "Spring_Bone_FrontL",
+      "rotation": [
+        0.647749125957489,
+        -0.28360652923583984,
+        0.5261905193328857,
+        0.4723471701145172
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.30320414900779724,
+        -0.5431960821151733,
+        0.3512522876262665
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 67108878,
+        "ID": 231,
+        "Parent ID": 12
+      },
+      "name": "Spring_Bone_FrontR",
+      "rotation": [
+        0.47236910462379456,
+        0.5261932611465454,
+        -0.2835865914821625,
+        0.6477397680282593
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.3032102584838867,
+        -0.5431755185127258,
+        -0.34246963262557983
+      ]
+    },
+    {
       "children": [
-        55,
+        57,
         68,
-        72
+        72,
+        76,
+        77,
+        78
       ],
       "extras": {
         "Flags": 14,
@@ -1641,7 +1694,7 @@
     },
     {
       "children": [
-        56,
+        58,
         62,
         65
       ],
@@ -1670,7 +1723,7 @@
     },
     {
       "children": [
-        57
+        59
       ],
       "extras": {
         "Flags": 14,
@@ -1697,9 +1750,7 @@
     },
     {
       "children": [
-        58,
-        60,
-        61
+        60
       ],
       "extras": {
         "Flags": 14,
@@ -1726,7 +1777,7 @@
     },
     {
       "children": [
-        59
+        61
       ],
       "extras": {
         "Flags": 14,
@@ -1773,54 +1824,6 @@
         0.34643951058387756,
         -3.890991138177924e-06,
         -4.746892727780505e-07
-      ]
-    },
-    {
-      "extras": {
-        "Flags": 67108878,
-        "ID": 229,
-        "Parent ID": 171
-      },
-      "name": "LookAt_Tail_R",
-      "rotation": [
-        0.4962441623210907,
-        0.552966296672821,
-        0.49109354615211487,
-        0.45474961400032043
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "translation": [
-        0.20876693725585938,
-        -0.057662200182676315,
-        0.26247140765190125
-      ]
-    },
-    {
-      "extras": {
-        "Flags": 67108878,
-        "ID": 231,
-        "Parent ID": 171
-      },
-      "name": "LookAt_Tail_L",
-      "rotation": [
-        0.44703415036201477,
-        0.4981237053871155,
-        0.5451575517654419,
-        0.5048133134841919
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "translation": [
-        0.15947173535823822,
-        -0.05306854099035263,
-        -0.24878938496112823
       ]
     },
     {
@@ -2191,20 +2194,92 @@
     },
     {
       "extras": {
+        "Flags": 67108878,
+        "ID": 233,
+        "Parent ID": 162
+      },
+      "name": "Spring_Bone_BackL",
+      "rotation": [
+        -0.5189756155014038,
+        -0.4006226360797882,
+        0.6183275580406189,
+        -0.4334014654159546
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0028736114036291838,
+        -1.0165520906448364,
+        -0.28440290689468384
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 67108878,
+        "ID": 235,
+        "Parent ID": 162
+      },
+      "name": "Spring_Bone_BackR",
+      "rotation": [
+        0.43340688943862915,
+        -0.618321418762207,
+        0.40061676502227783,
+        0.5189830660820007
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.002880706684663892,
+        -1.016552448272705,
+        0.27559706568717957
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 67108878,
+        "ID": 237,
+        "Parent ID": 162
+      },
+      "name": "Spring_Bone_Tail01",
+      "rotation": [
+        0.8878849148750305,
+        0.4600656032562256,
+        -5.748758667323273e-06,
+        -3.515038088153233e-06
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.533004879951477,
+        -0.7582697868347168,
+        -7.01904400557396e-06
+      ]
+    },
+    {
+      "extras": {
         "Flags": 526,
         "Has GPU LODs": false,
-        "ID": 233,
-        "Material Path": "Materials\\Actors\\MantidA\\MantidA_Cricket\\MantidA_Cricket.mat",
-        "NiIntegerExtraData:MaterialID": -714486923,
+        "ID": 239,
+        "Material Path": "Materials\\Actors\\MantidA\\MantidA_MaggotMantis\\MantidA_MaggotMantis.mat",
+        "NiIntegerExtraData:MaterialID": 2040451120,
         "Parent ID": 3
       },
       "mesh": 0,
-      "name": "MantidA_Cricket:0",
+      "name": "MantidA_MaggotMantis:0",
       "rotation": [
-        0.7071067094802856,
         0.0,
         0.0,
-        0.7071067690849304
+        0.0,
+        1.0
       ],
       "scale": [
         1.0,
@@ -2214,7 +2289,7 @@
       "skin": 0,
       "translation": [
         0.0,
-        0.0,
+        -6.189620344043689e-11,
         0.0
       ]
     }
@@ -2231,60 +2306,44 @@
     {
       "inverseBindMatrices": 0,
       "joints": [
-        30,
-        31,
-        4,
-        5,
-        28,
-        32,
-        29,
-        6,
-        7,
-        8,
-        9,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        43,
-        42,
-        41,
-        40,
-        3,
-        2,
-        23,
-        54,
-        55,
-        72,
         56,
         57,
-        75,
-        58,
-        61,
-        36,
-        35,
-        26,
+        2,
+        68,
+        4,
+        5,
+        3,
+        23,
+        78,
+        55,
+        6,
         24,
-        25,
-        34,
         27,
         33,
-        68,
+        28,
+        32,
+        77,
+        76,
+        54,
+        40,
         69,
-        11,
-        70,
-        12,
         71,
-        13,
-        14,
-        15,
-        60,
-        16,
+        70,
+        72,
         73,
+        75,
         74,
-        59
+        43,
+        29,
+        41,
+        42,
+        26,
+        25,
+        36,
+        34,
+        35,
+        31,
+        30
       ],
       "skeleton": 1
     }
