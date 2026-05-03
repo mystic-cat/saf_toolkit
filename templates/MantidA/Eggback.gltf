@@ -9,65 +9,65 @@
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 20618,
+      "count": 19797,
       "max": [
-        1.0113834142684937,
-        3.8300728797912598,
-        3.059053421020508
+        1.1638538837432861,
+        1.2479628324508667,
+        3.010833978652954
       ],
       "min": [
-        -1.0113834142684937,
-        -0.0012207403779029846,
-        -1.224890947341919
+        -1.1638538837432861,
+        -2.7456891536712646,
+        -0.060670796781778336
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 20618,
+      "count": 19797,
       "type": "VEC3"
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 20618,
+      "count": 19797,
       "type": "VEC4"
     },
     {
       "bufferView": 4,
       "componentType": 5126,
-      "count": 20618,
+      "count": 19797,
       "type": "VEC2"
     },
     {
       "bufferView": 5,
       "componentType": 5126,
-      "count": 20618,
+      "count": 19797,
       "type": "VEC4"
     },
     {
       "bufferView": 6,
       "componentType": 5126,
-      "count": 20618,
+      "count": 19797,
       "type": "VEC4"
     },
     {
       "bufferView": 7,
       "componentType": 5123,
-      "count": 20618,
+      "count": 19797,
       "type": "VEC4"
     },
     {
       "bufferView": 8,
       "componentType": 5123,
-      "count": 20618,
+      "count": 19797,
       "type": "VEC4"
     },
     {
       "bufferView": 9,
       "componentType": 5123,
-      "count": 105786,
+      "count": 104832,
       "type": "SCALAR"
     }
   ],
@@ -82,64 +82,64 @@
     },
     {
       "buffer": 0,
-      "byteLength": 247416,
+      "byteLength": 237564,
       "byteOffset": 3456,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 247416,
-      "byteOffset": 250872,
+      "byteLength": 237564,
+      "byteOffset": 241020,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 329888,
-      "byteOffset": 498288,
+      "byteLength": 316752,
+      "byteOffset": 478584,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 164944,
-      "byteOffset": 828176,
+      "byteLength": 158376,
+      "byteOffset": 795336,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 329888,
-      "byteOffset": 993120,
+      "byteLength": 316752,
+      "byteOffset": 953712,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 329888,
-      "byteOffset": 1323008,
+      "byteLength": 316752,
+      "byteOffset": 1270464,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 164944,
-      "byteOffset": 1652896,
+      "byteLength": 158376,
+      "byteOffset": 1587216,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 164944,
-      "byteOffset": 1817840,
+      "byteLength": 158376,
+      "byteOffset": 1745592,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 211572,
-      "byteOffset": 1982784,
+      "byteLength": 209664,
+      "byteOffset": 1903968,
       "target": 34963
     }
   ],
   "buffers": [
     {
-      "byteLength": 2194356,
-      "name": "Cricket.bin",
-      "uri": "Cricket.bin"
+      "byteLength": 2113632,
+      "name": "Eggback.bin",
+      "uri": "Eggback.bin"
     }
   ],
   "materials": [
@@ -151,14 +151,14 @@
     },
     {
       "extras": {
-        "Material Path": "materials/actors/mantida/mantida_cricket/mantida_cricket.mat"
+        "Material Path": "materials/actors/mantida/mantida_eggback/mantida_eggback.mat"
       },
-      "name": "Materials/Actors/Mantida/Mantida_Cricket/Mantida_Cricket"
+      "name": "Materials/Actors/Mantida/Mantida_Eggback/Mantida_Eggback"
     }
   ],
   "meshes": [
     {
-      "name": "MantidA_Cricket:0",
+      "name": "MantidA_EggBack:0",
       "primitives": [
         {
           "attributes": {
@@ -182,7 +182,7 @@
     {
       "children": [
         1,
-        76
+        75
       ],
       "extras": {
         "Flags": 14,
@@ -210,7 +210,7 @@
     {
       "children": [
         2,
-        54
+        55
       ],
       "extras": {
         "Flags": 14,
@@ -292,13 +292,13 @@
     {
       "children": [
         5,
-        33,
-        37,
-        40,
-        44,
-        47,
-        50,
-        53
+        34,
+        38,
+        41,
+        45,
+        48,
+        51,
+        54
       ],
       "extras": {
         "Flags": 14,
@@ -326,8 +326,8 @@
     {
       "children": [
         6,
-        23,
-        28
+        24,
+        29
       ],
       "extras": {
         "Flags": 14,
@@ -437,7 +437,8 @@
       "children": [
         10,
         11,
-        17
+        17,
+        23
       ],
       "extras": {
         "Flags": 14,
@@ -805,8 +806,32 @@
       ]
     },
     {
+      "extras": {
+        "Flags": 67108878,
+        "ID": 229,
+        "Parent ID": 30
+      },
+      "name": "Head_SpringBone",
+      "rotation": [
+        -4.402672857395373e-05,
+        5.519708065548912e-05,
+        -0.6039365530014038,
+        0.797032356262207
+      ],
+      "scale": [
+        0.9999989867210388,
+        0.9999989867210388,
+        0.9999989867210388
+      ],
+      "translation": [
+        -0.12877552211284637,
+        -0.2852329909801483,
+        3.2958982046693563e-05
+      ]
+    },
+    {
       "children": [
-        24
+        25
       ],
       "extras": {
         "Flags": 14,
@@ -833,8 +858,8 @@
     },
     {
       "children": [
-        25,
-        27
+        26,
+        28
       ],
       "extras": {
         "Flags": 14,
@@ -861,7 +886,7 @@
     },
     {
       "children": [
-        26
+        27
       ],
       "extras": {
         "Flags": 14,
@@ -936,7 +961,7 @@
     },
     {
       "children": [
-        29
+        30
       ],
       "extras": {
         "Flags": 14,
@@ -963,8 +988,8 @@
     },
     {
       "children": [
-        30,
-        32
+        31,
+        33
       ],
       "extras": {
         "Flags": 14,
@@ -991,7 +1016,7 @@
     },
     {
       "children": [
-        31
+        32
       ],
       "extras": {
         "Flags": 14,
@@ -1066,7 +1091,7 @@
     },
     {
       "children": [
-        34
+        35
       ],
       "extras": {
         "Flags": 14,
@@ -1093,7 +1118,7 @@
     },
     {
       "children": [
-        35
+        36
       ],
       "extras": {
         "Flags": 14,
@@ -1120,7 +1145,7 @@
     },
     {
       "children": [
-        36
+        37
       ],
       "extras": {
         "Flags": 14,
@@ -1171,7 +1196,7 @@
     },
     {
       "children": [
-        38
+        39
       ],
       "extras": {
         "Flags": 14,
@@ -1198,7 +1223,7 @@
     },
     {
       "children": [
-        39
+        40
       ],
       "extras": {
         "Flags": 14,
@@ -1249,7 +1274,7 @@
     },
     {
       "children": [
-        41
+        42
       ],
       "extras": {
         "Flags": 14,
@@ -1276,7 +1301,7 @@
     },
     {
       "children": [
-        42
+        43
       ],
       "extras": {
         "Flags": 14,
@@ -1303,7 +1328,7 @@
     },
     {
       "children": [
-        43
+        44
       ],
       "extras": {
         "Flags": 14,
@@ -1354,7 +1379,7 @@
     },
     {
       "children": [
-        45
+        46
       ],
       "extras": {
         "Flags": 14,
@@ -1381,7 +1406,7 @@
     },
     {
       "children": [
-        46
+        47
       ],
       "extras": {
         "Flags": 14,
@@ -1432,7 +1457,7 @@
     },
     {
       "children": [
-        48
+        49
       ],
       "extras": {
         "Flags": 14,
@@ -1459,7 +1484,7 @@
     },
     {
       "children": [
-        49
+        50
       ],
       "extras": {
         "Flags": 14,
@@ -1510,7 +1535,7 @@
     },
     {
       "children": [
-        51
+        52
       ],
       "extras": {
         "Flags": 14,
@@ -1537,7 +1562,7 @@
     },
     {
       "children": [
-        52
+        53
       ],
       "extras": {
         "Flags": 14,
@@ -1612,9 +1637,9 @@
     },
     {
       "children": [
-        55,
-        68,
-        72
+        56,
+        67,
+        71
       ],
       "extras": {
         "Flags": 14,
@@ -1641,9 +1666,9 @@
     },
     {
       "children": [
-        56,
-        62,
-        65
+        57,
+        61,
+        64
       ],
       "extras": {
         "Flags": 14,
@@ -1670,7 +1695,7 @@
     },
     {
       "children": [
-        57
+        58
       ],
       "extras": {
         "Flags": 14,
@@ -1697,9 +1722,7 @@
     },
     {
       "children": [
-        58,
-        60,
-        61
+        59
       ],
       "extras": {
         "Flags": 14,
@@ -1726,7 +1749,7 @@
     },
     {
       "children": [
-        59
+        60
       ],
       "extras": {
         "Flags": 14,
@@ -1776,56 +1799,8 @@
       ]
     },
     {
-      "extras": {
-        "Flags": 67108878,
-        "ID": 229,
-        "Parent ID": 171
-      },
-      "name": "LookAt_Tail_R",
-      "rotation": [
-        0.4962441623210907,
-        0.552966296672821,
-        0.49109354615211487,
-        0.45474961400032043
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "translation": [
-        0.20876693725585938,
-        -0.057662200182676315,
-        0.26247140765190125
-      ]
-    },
-    {
-      "extras": {
-        "Flags": 67108878,
-        "ID": 231,
-        "Parent ID": 171
-      },
-      "name": "LookAt_Tail_L",
-      "rotation": [
-        0.44703415036201477,
-        0.4981237053871155,
-        0.5451575517654419,
-        0.5048133134841919
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "translation": [
-        0.15947173535823822,
-        -0.05306854099035263,
-        -0.24878938496112823
-      ]
-    },
-    {
       "children": [
-        63
+        62
       ],
       "extras": {
         "Flags": 14,
@@ -1852,7 +1827,7 @@
     },
     {
       "children": [
-        64
+        63
       ],
       "extras": {
         "Flags": 14,
@@ -1903,7 +1878,7 @@
     },
     {
       "children": [
-        66
+        65
       ],
       "extras": {
         "Flags": 14,
@@ -1930,7 +1905,7 @@
     },
     {
       "children": [
-        67
+        66
       ],
       "extras": {
         "Flags": 14,
@@ -1981,7 +1956,7 @@
     },
     {
       "children": [
-        69
+        68
       ],
       "extras": {
         "Flags": 14,
@@ -2008,7 +1983,7 @@
     },
     {
       "children": [
-        70
+        69
       ],
       "extras": {
         "Flags": 14,
@@ -2035,7 +2010,7 @@
     },
     {
       "children": [
-        71
+        70
       ],
       "extras": {
         "Flags": 14,
@@ -2086,7 +2061,7 @@
     },
     {
       "children": [
-        73
+        72
       ],
       "extras": {
         "Flags": 14,
@@ -2113,7 +2088,7 @@
     },
     {
       "children": [
-        74
+        73
       ],
       "extras": {
         "Flags": 14,
@@ -2140,7 +2115,7 @@
     },
     {
       "children": [
-        75
+        74
       ],
       "extras": {
         "Flags": 14,
@@ -2193,18 +2168,18 @@
       "extras": {
         "Flags": 526,
         "Has GPU LODs": false,
-        "ID": 233,
-        "Material Path": "Materials\\Actors\\MantidA\\MantidA_Cricket\\MantidA_Cricket.mat",
-        "NiIntegerExtraData:MaterialID": -714486923,
+        "ID": 231,
+        "Material Path": "Materials\\Actors\\MantidA\\MantidA_EggBack\\MantidA_EggBack.mat",
+        "NiIntegerExtraData:MaterialID": -302852133,
         "Parent ID": 3
       },
       "mesh": 0,
-      "name": "MantidA_Cricket:0",
+      "name": "MantidA_EggBack:0",
       "rotation": [
-        0.7071067094802856,
         0.0,
         0.0,
-        0.7071067690849304
+        0.0,
+        1.0
       ],
       "scale": [
         1.0,
@@ -2231,60 +2206,60 @@
     {
       "inverseBindMatrices": 0,
       "joints": [
-        30,
-        31,
-        4,
-        5,
-        28,
-        32,
-        29,
         6,
         7,
         8,
         9,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        43,
-        42,
-        41,
-        40,
+        4,
+        5,
+        29,
+        24,
         3,
         2,
-        23,
-        54,
         55,
-        72,
         56,
         57,
-        75,
         58,
-        61,
-        36,
-        35,
-        26,
-        24,
-        25,
-        34,
-        27,
-        33,
-        68,
-        69,
-        11,
-        70,
-        12,
-        71,
-        13,
-        14,
-        15,
+        59,
         60,
-        16,
+        10,
+        23,
+        71,
+        41,
+        45,
+        33,
+        30,
+        31,
+        32,
+        42,
+        43,
+        44,
+        51,
+        52,
+        53,
+        72,
         73,
         74,
-        59
+        46,
+        47,
+        67,
+        34,
+        38,
+        28,
+        25,
+        26,
+        27,
+        35,
+        36,
+        37,
+        48,
+        49,
+        50,
+        68,
+        69,
+        70,
+        39,
+        40
       ],
       "skeleton": 1
     }
