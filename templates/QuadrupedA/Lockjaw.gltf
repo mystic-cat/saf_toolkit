@@ -3,199 +3,71 @@
     {
       "bufferView": 0,
       "componentType": 5126,
-      "count": 33,
+      "count": 60,
       "type": "MAT4"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 47,
-      "type": "MAT4"
+      "count": 24036,
+      "max": [
+        0.8066652417182922,
+        1.4355907440185547,
+        2.081606388092041
+      ],
+      "min": [
+        -0.8066652417182922,
+        -4.256965637207031,
+        -0.010742515325546265
+      ],
+      "type": "VEC3"
     },
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 4,
-      "type": "MAT4"
+      "count": 24036,
+      "type": "VEC3"
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 11944,
-      "max": [
-        0.8095950484275818,
-        1.2934964895248413,
-        2.401196241378784
-      ],
-      "min": [
-        -0.8095950484275818,
-        -0.7197485566139221,
-        -0.03003021329641342
-      ],
-      "type": "VEC3"
+      "count": 24036,
+      "type": "VEC4"
     },
     {
       "bufferView": 4,
       "componentType": 5126,
-      "count": 11944,
-      "type": "VEC3"
+      "count": 24036,
+      "type": "VEC2"
     },
     {
       "bufferView": 5,
       "componentType": 5126,
-      "count": 11944,
+      "count": 24036,
       "type": "VEC4"
     },
     {
       "bufferView": 6,
       "componentType": 5126,
-      "count": 11944,
-      "type": "VEC2"
+      "count": 24036,
+      "type": "VEC4"
     },
     {
       "bufferView": 7,
-      "componentType": 5126,
-      "count": 11944,
+      "componentType": 5123,
+      "count": 24036,
       "type": "VEC4"
     },
     {
       "bufferView": 8,
-      "componentType": 5126,
-      "count": 11944,
+      "componentType": 5123,
+      "count": 24036,
       "type": "VEC4"
     },
     {
       "bufferView": 9,
       "componentType": 5123,
-      "count": 11944,
-      "type": "VEC4"
-    },
-    {
-      "bufferView": 10,
-      "componentType": 5123,
-      "count": 11944,
-      "type": "VEC4"
-    },
-    {
-      "bufferView": 11,
-      "componentType": 5123,
-      "count": 55134,
-      "type": "SCALAR"
-    },
-    {
-      "bufferView": 12,
-      "componentType": 5126,
-      "count": 7119,
-      "max": [
-        0.7070528268814087,
-        0.024903103709220886,
-        1.8828699588775635
-      ],
-      "min": [
-        -0.7070528268814087,
-        -4.355113506317139,
-        -0.02612384408712387
-      ],
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 13,
-      "componentType": 5126,
-      "count": 7119,
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 14,
-      "componentType": 5126,
-      "count": 7119,
-      "type": "VEC4"
-    },
-    {
-      "bufferView": 15,
-      "componentType": 5126,
-      "count": 7119,
-      "type": "VEC2"
-    },
-    {
-      "bufferView": 16,
-      "componentType": 5126,
-      "count": 7119,
-      "type": "VEC4"
-    },
-    {
-      "bufferView": 17,
-      "componentType": 5126,
-      "count": 7119,
-      "type": "VEC4"
-    },
-    {
-      "bufferView": 18,
-      "componentType": 5123,
-      "count": 7119,
-      "type": "VEC4"
-    },
-    {
-      "bufferView": 19,
-      "componentType": 5123,
-      "count": 7119,
-      "type": "VEC4"
-    },
-    {
-      "bufferView": 20,
-      "componentType": 5123,
-      "count": 33690,
-      "type": "SCALAR"
-    },
-    {
-      "bufferView": 21,
-      "componentType": 5126,
-      "count": 666,
-      "max": [
-        0.06445509195327759,
-        1.2952055931091309,
-        1.0625324249267578
-      ],
-      "min": [
-        -0.06445509195327759,
-        0.773705244064331,
-        0.8779565095901489
-      ],
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 22,
-      "componentType": 5126,
-      "count": 666,
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 23,
-      "componentType": 5126,
-      "count": 666,
-      "type": "VEC4"
-    },
-    {
-      "bufferView": 24,
-      "componentType": 5126,
-      "count": 666,
-      "type": "VEC2"
-    },
-    {
-      "bufferView": 25,
-      "componentType": 5126,
-      "count": 666,
-      "type": "VEC4"
-    },
-    {
-      "bufferView": 26,
-      "componentType": 5123,
-      "count": 666,
-      "type": "VEC4"
-    },
-    {
-      "bufferView": 27,
-      "componentType": 5123,
-      "count": 2994,
+      "count": 102714,
       "type": "SCALAR"
     }
   ],
@@ -206,174 +78,68 @@
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 2112
+      "byteLength": 3840
     },
     {
       "buffer": 0,
-      "byteLength": 3008,
-      "byteOffset": 2112
-    },
-    {
-      "buffer": 0,
-      "byteLength": 256,
-      "byteOffset": 5120
-    },
-    {
-      "buffer": 0,
-      "byteLength": 143328,
-      "byteOffset": 5376,
+      "byteLength": 288432,
+      "byteOffset": 3840,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 143328,
-      "byteOffset": 148704,
+      "byteLength": 288432,
+      "byteOffset": 292272,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 191104,
-      "byteOffset": 292032,
+      "byteLength": 384576,
+      "byteOffset": 580704,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 95552,
-      "byteOffset": 483136,
+      "byteLength": 192288,
+      "byteOffset": 965280,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 191104,
-      "byteOffset": 578688,
+      "byteLength": 384576,
+      "byteOffset": 1157568,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 191104,
-      "byteOffset": 769792,
+      "byteLength": 384576,
+      "byteOffset": 1542144,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 95552,
-      "byteOffset": 960896,
+      "byteLength": 192288,
+      "byteOffset": 1926720,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 95552,
-      "byteOffset": 1056448,
+      "byteLength": 192288,
+      "byteOffset": 2119008,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 110268,
-      "byteOffset": 1152000,
-      "target": 34963
-    },
-    {
-      "buffer": 0,
-      "byteLength": 85428,
-      "byteOffset": 1262268,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 85428,
-      "byteOffset": 1347696,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 113904,
-      "byteOffset": 1433124,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 56952,
-      "byteOffset": 1547028,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 113904,
-      "byteOffset": 1603980,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 113904,
-      "byteOffset": 1717884,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 56952,
-      "byteOffset": 1831788,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 56952,
-      "byteOffset": 1888740,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 67380,
-      "byteOffset": 1945692,
-      "target": 34963
-    },
-    {
-      "buffer": 0,
-      "byteLength": 7992,
-      "byteOffset": 2013072,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 7992,
-      "byteOffset": 2021064,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 10656,
-      "byteOffset": 2029056,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 5328,
-      "byteOffset": 2039712,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 10656,
-      "byteOffset": 2045040,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 5328,
-      "byteOffset": 2055696,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 5988,
-      "byteOffset": 2061024,
+      "byteLength": 205428,
+      "byteOffset": 2311296,
       "target": 34963
     }
   ],
   "buffers": [
     {
-      "byteLength": 2067012,
-      "name": "Sirens.bin",
-      "uri": "Sirens.bin"
+      "byteLength": 2516724,
+      "name": "Lockjaw.bin",
+      "uri": "Lockjaw.bin"
     }
   ],
   "materials": [
@@ -385,71 +151,27 @@
     },
     {
       "extras": {
-        "Material Path": "materials/actors/quadrupeda/quadrupeda_sirens/quadrupeda_sirens_01.mat"
+        "Material Path": "materials/actors/quadrupeda/quadrupeda_lockjaw/quadrupeda_lockjaw.mat"
       },
-      "name": "Materials/Actors/Quadrupeda/Quadrupeda_Sirens/Quadrupeda_Sirens_01"
-    },
-    {
-      "extras": {
-        "Material Path": "materials/actors/quadrupeda/quadrupeda_sirens/quadrupeda_sirens_02.mat"
-      },
-      "name": "Materials/Actors/Quadrupeda/Quadrupeda_Sirens/Quadrupeda_Sirens_02"
+      "name": "Materials/Actors/Quadrupeda/Quadrupeda_Lockjaw/Quadrupeda_Lockjaw"
     }
   ],
   "meshes": [
     {
-      "name": "QuadrupedA_Sirens:0",
+      "name": "QuadrupedA_Lockjaw:0",
       "primitives": [
         {
           "attributes": {
-            "JOINTS_0": 9,
-            "JOINTS_1": 10,
-            "NORMAL": 4,
-            "POSITION": 3,
-            "TANGENT": 5,
-            "TEXCOORD_0": 6,
-            "WEIGHTS_0": 7,
-            "WEIGHTS_1": 8
+            "JOINTS_0": 7,
+            "JOINTS_1": 8,
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TANGENT": 3,
+            "TEXCOORD_0": 4,
+            "WEIGHTS_0": 5,
+            "WEIGHTS_1": 6
           },
-          "indices": 11,
-          "material": 1,
-          "mode": 4
-        }
-      ]
-    },
-    {
-      "name": "QuadrupedA_Sirens:1",
-      "primitives": [
-        {
-          "attributes": {
-            "JOINTS_0": 18,
-            "JOINTS_1": 19,
-            "NORMAL": 13,
-            "POSITION": 12,
-            "TANGENT": 14,
-            "TEXCOORD_0": 15,
-            "WEIGHTS_0": 16,
-            "WEIGHTS_1": 17
-          },
-          "indices": 20,
-          "material": 2,
-          "mode": 4
-        }
-      ]
-    },
-    {
-      "name": "QuadrupedA_Sirens_Tongue:0",
-      "primitives": [
-        {
-          "attributes": {
-            "JOINTS_0": 26,
-            "NORMAL": 22,
-            "POSITION": 21,
-            "TANGENT": 23,
-            "TEXCOORD_0": 24,
-            "WEIGHTS_0": 25
-          },
-          "indices": 27,
+          "indices": 9,
           "material": 1,
           "mode": 4
         }
@@ -460,9 +182,7 @@
     {
       "children": [
         1,
-        73,
-        74,
-        75
+        84
       ],
       "extras": {
         "Flags": 14,
@@ -490,7 +210,7 @@
     {
       "children": [
         2,
-        46
+        55
       ],
       "extras": {
         "Flags": 14,
@@ -517,7 +237,9 @@
     },
     {
       "children": [
-        3
+        3,
+        53,
+        54
       ],
       "extras": {
         "Flags": 14,
@@ -544,7 +266,10 @@
     },
     {
       "children": [
-        4
+        4,
+        50,
+        51,
+        52
       ],
       "extras": {
         "Flags": 14,
@@ -572,7 +297,7 @@
     {
       "children": [
         5,
-        45
+        49
       ],
       "extras": {
         "Flags": 14,
@@ -600,7 +325,7 @@
     {
       "children": [
         6,
-        44
+        48
       ],
       "extras": {
         "Flags": 14,
@@ -629,12 +354,12 @@
       "children": [
         7,
         8,
-        22,
-        23,
-        24,
-        25,
-        34,
-        43
+        26,
+        27,
+        28,
+        29,
+        38,
+        47
       ],
       "extras": {
         "Flags": 14,
@@ -686,9 +411,12 @@
     {
       "children": [
         9,
-        19,
         20,
-        21
+        21,
+        22,
+        23,
+        24,
+        25
       ],
       "extras": {
         "Flags": 14,
@@ -716,7 +444,7 @@
     {
       "children": [
         10,
-        18
+        19
       ],
       "extras": {
         "Flags": 14,
@@ -744,8 +472,8 @@
     {
       "children": [
         11,
-        16,
-        17
+        17,
+        18
       ],
       "extras": {
         "Flags": 14,
@@ -772,7 +500,8 @@
     },
     {
       "children": [
-        12
+        12,
+        16
       ],
       "extras": {
         "Flags": 14,
@@ -900,6 +629,30 @@
         0.16078101098537445,
         -1.220703097715159e-06,
         -1.5737313674435427e-07
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 67108878,
+        "ID": 200,
+        "Parent ID": 35
+      },
+      "name": "Cloth_Bone_001",
+      "rotation": [
+        0.6887804865837097,
+        0.46467259526252747,
+        -0.31244972348213196,
+        -0.4604736268520355
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0242434311658144,
+        0.41321974992752075,
+        0.005108031909912825
       ]
     },
     {
@@ -1048,6 +801,78 @@
     },
     {
       "extras": {
+        "Flags": 67108878,
+        "ID": 202,
+        "Parent ID": 26
+      },
+      "name": "Cloth_Bone_002",
+      "rotation": [
+        0.5978618860244751,
+        0.497967928647995,
+        -0.4158630669116974,
+        -0.4707939922809601
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.16349747776985168,
+        0.6407331228256226,
+        0.0051295082084834576
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 67108878,
+        "ID": 204,
+        "Parent ID": 26
+      },
+      "name": "Cloth_Bone_003",
+      "rotation": [
+        0.6206862330436707,
+        0.5943645238876343,
+        -0.35429996252059937,
+        -0.36871519684791565
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0860658660531044,
+        0.6515239477157593,
+        0.1813582181930542
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 67108878,
+        "ID": 206,
+        "Parent ID": 26
+      },
+      "name": "Cloth_Bone_004",
+      "rotation": [
+        -0.4123111069202423,
+        -0.4131125509738922,
+        0.5692623853683472,
+        0.5790318846702576
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.18064725399017334,
+        0.5432946681976318,
+        -0.26836639642715454
+      ]
+    },
+    {
+      "extras": {
         "Flags": 14,
         "ID": 58,
         "Parent ID": 21
@@ -1120,7 +945,7 @@
     },
     {
       "children": [
-        26
+        30
       ],
       "extras": {
         "Flags": 14,
@@ -1147,8 +972,8 @@
     },
     {
       "children": [
-        27,
-        32
+        31,
+        36
       ],
       "extras": {
         "Flags": 14,
@@ -1175,7 +1000,7 @@
     },
     {
       "children": [
-        28
+        32
       ],
       "extras": {
         "Flags": 14,
@@ -1202,7 +1027,7 @@
     },
     {
       "children": [
-        29
+        33
       ],
       "extras": {
         "Flags": 14,
@@ -1229,8 +1054,8 @@
     },
     {
       "children": [
-        30,
-        31
+        34,
+        35
       ],
       "extras": {
         "Flags": 14,
@@ -1305,7 +1130,7 @@
     },
     {
       "children": [
-        33
+        37
       ],
       "extras": {
         "Flags": 14,
@@ -1356,7 +1181,7 @@
     },
     {
       "children": [
-        35
+        39
       ],
       "extras": {
         "Flags": 14,
@@ -1383,8 +1208,8 @@
     },
     {
       "children": [
-        36,
-        41
+        40,
+        45
       ],
       "extras": {
         "Flags": 14,
@@ -1411,7 +1236,7 @@
     },
     {
       "children": [
-        37
+        41
       ],
       "extras": {
         "Flags": 14,
@@ -1438,7 +1263,7 @@
     },
     {
       "children": [
-        38
+        42
       ],
       "extras": {
         "Flags": 14,
@@ -1465,8 +1290,8 @@
     },
     {
       "children": [
-        39,
-        40
+        43,
+        44
       ],
       "extras": {
         "Flags": 14,
@@ -1541,7 +1366,7 @@
     },
     {
       "children": [
-        42
+        46
       ],
       "extras": {
         "Flags": 14,
@@ -1663,10 +1488,130 @@
       ]
     },
     {
+      "extras": {
+        "Flags": 67108878,
+        "ID": 208,
+        "Parent ID": 12
+      },
+      "name": "Cloth_Bone_008",
+      "rotation": [
+        0.5578888654708862,
+        0.5658740997314453,
+        0.44402197003364563,
+        0.4139941334724426
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.16116218268871307,
+        0.6002336740493774,
+        -0.3602931797504425
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 67108878,
+        "ID": 210,
+        "Parent ID": 12
+      },
+      "name": "Cloth_Bone_006",
+      "rotation": [
+        0.5101370811462402,
+        0.5598322749137878,
+        -0.4622911214828491,
+        -0.461123526096344
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.13839782774448395,
+        0.5899069905281067,
+        0.3626321852207184
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 67108878,
+        "ID": 212,
+        "Parent ID": 12
+      },
+      "name": "Cloth_Bone_005",
+      "rotation": [
+        -0.4907371699810028,
+        -0.4549087882041931,
+        0.523193359375,
+        0.5277345180511475
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.23489539325237274,
+        0.6922330856323242,
+        0.005077323876321316
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 67108878,
+        "ID": 214,
+        "Parent ID": 9
+      },
+      "name": "Cloth_Bone_009",
+      "rotation": [
+        0.531818687915802,
+        0.6106055378913879,
+        0.45016416907310486,
+        0.376406729221344
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.15576805174350739,
+        0.5519848465919495,
+        -0.25997328758239746
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 67108878,
+        "ID": 216,
+        "Parent ID": 9
+      },
+      "name": "Cloth_Bone_007",
+      "rotation": [
+        0.5114637613296509,
+        0.5568000078201294,
+        -0.45823121070861816,
+        -0.4673357903957367
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.16604140400886536,
+        0.5793332457542419,
+        0.24143745005130768
+      ]
+    },
+    {
       "children": [
-        47,
-        55,
-        64
+        56,
+        66,
+        75
       ],
       "extras": {
         "Flags": 14,
@@ -1693,7 +1638,7 @@
     },
     {
       "children": [
-        48
+        57
       ],
       "extras": {
         "Flags": 14,
@@ -1720,7 +1665,7 @@
     },
     {
       "children": [
-        49
+        58
       ],
       "extras": {
         "Flags": 14,
@@ -1747,7 +1692,8 @@
     },
     {
       "children": [
-        50
+        59,
+        65
       ],
       "extras": {
         "Flags": 14,
@@ -1774,7 +1720,8 @@
     },
     {
       "children": [
-        51
+        60,
+        64
       ],
       "extras": {
         "Flags": 14,
@@ -1801,7 +1748,7 @@
     },
     {
       "children": [
-        52
+        61
       ],
       "extras": {
         "Flags": 14,
@@ -1828,7 +1775,7 @@
     },
     {
       "children": [
-        53
+        62
       ],
       "extras": {
         "Flags": 14,
@@ -1855,7 +1802,7 @@
     },
     {
       "children": [
-        54
+        63
       ],
       "extras": {
         "Flags": 14,
@@ -1905,8 +1852,56 @@
       ]
     },
     {
+      "extras": {
+        "Flags": 67108878,
+        "ID": 218,
+        "Parent ID": 128
+      },
+      "name": "Cloth_Bone_011",
+      "rotation": [
+        -0.3483443558216095,
+        -0.29430583119392395,
+        0.6087971925735474,
+        0.6491581797599792
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.2681335508823395,
+        0.2146264612674713,
+        0.007263793610036373
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 67108878,
+        "ID": 220,
+        "Parent ID": 125
+      },
+      "name": "Cloth_Bone_010",
+      "rotation": [
+        -0.3445470929145813,
+        -0.29812702536582947,
+        0.6015926599502563,
+        0.6561203002929688
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.16757965087890625,
+        0.25593674182891846,
+        0.007261810824275017
+      ]
+    },
+    {
       "children": [
-        56
+        67
       ],
       "extras": {
         "Flags": 14,
@@ -1933,8 +1928,8 @@
     },
     {
       "children": [
-        57,
-        62
+        68,
+        73
       ],
       "extras": {
         "Flags": 14,
@@ -1961,7 +1956,7 @@
     },
     {
       "children": [
-        58
+        69
       ],
       "extras": {
         "Flags": 14,
@@ -1988,7 +1983,7 @@
     },
     {
       "children": [
-        59
+        70
       ],
       "extras": {
         "Flags": 14,
@@ -2015,8 +2010,8 @@
     },
     {
       "children": [
-        60,
-        61
+        71,
+        72
       ],
       "extras": {
         "Flags": 14,
@@ -2091,7 +2086,7 @@
     },
     {
       "children": [
-        63
+        74
       ],
       "extras": {
         "Flags": 14,
@@ -2142,7 +2137,7 @@
     },
     {
       "children": [
-        65
+        76
       ],
       "extras": {
         "Flags": 14,
@@ -2169,8 +2164,8 @@
     },
     {
       "children": [
-        66,
-        71
+        77,
+        82
       ],
       "extras": {
         "Flags": 14,
@@ -2197,7 +2192,7 @@
     },
     {
       "children": [
-        67
+        78
       ],
       "extras": {
         "Flags": 14,
@@ -2224,7 +2219,7 @@
     },
     {
       "children": [
-        68
+        79
       ],
       "extras": {
         "Flags": 14,
@@ -2251,8 +2246,8 @@
     },
     {
       "children": [
-        69,
-        70
+        80,
+        81
       ],
       "extras": {
         "Flags": 14,
@@ -2327,7 +2322,7 @@
     },
     {
       "children": [
-        72
+        83
       ],
       "extras": {
         "Flags": 14,
@@ -2380,13 +2375,13 @@
       "extras": {
         "Flags": 526,
         "Has GPU LODs": false,
-        "ID": 200,
-        "Material Path": "Materials\\Actors\\QuadrupedA\\QuadrupedA_Sirens\\QuadrupedA_Sirens_01.mat",
-        "NiIntegerExtraData:MaterialID": 1538839999,
+        "ID": 222,
+        "Material Path": "Materials\\Actors\\QuadrupedA\\QuadrupedA_Lockjaw\\QuadrupedA_Lockjaw.mat",
+        "NiIntegerExtraData:MaterialID": -1866714727,
         "Parent ID": 3
       },
       "mesh": 0,
-      "name": "QuadrupedA_Sirens:0",
+      "name": "QuadrupedA_Lockjaw:0",
       "rotation": [
         0.0,
         0.0,
@@ -2399,64 +2394,6 @@
         1.0
       ],
       "skin": 0,
-      "translation": [
-        0.0,
-        0.0,
-        0.0
-      ]
-    },
-    {
-      "extras": {
-        "Flags": 526,
-        "Has GPU LODs": false,
-        "ID": 206,
-        "Material Path": "Materials\\Actors\\QuadrupedA\\QuadrupedA_Sirens\\QuadrupedA_Sirens_02.mat",
-        "NiIntegerExtraData:MaterialID": 471379823,
-        "Parent ID": 3
-      },
-      "mesh": 1,
-      "name": "QuadrupedA_Sirens:1",
-      "rotation": [
-        0.0,
-        0.0,
-        0.0,
-        1.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "skin": 1,
-      "translation": [
-        0.0,
-        0.0,
-        0.0
-      ]
-    },
-    {
-      "extras": {
-        "Flags": 526,
-        "Has GPU LODs": false,
-        "ID": 212,
-        "Material Path": "Materials\\Actors\\QuadrupedA\\QuadrupedA_Sirens\\QuadrupedA_Sirens_01.mat",
-        "NiIntegerExtraData:MaterialID": 1538839999,
-        "Parent ID": 3
-      },
-      "mesh": 2,
-      "name": "QuadrupedA_Sirens_Tongue:0",
-      "rotation": [
-        0.0,
-        0.0,
-        0.0,
-        1.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "skin": 2,
       "translation": [
         0.0,
         0.0,
@@ -2476,102 +2413,66 @@
     {
       "inverseBindMatrices": 0,
       "joints": [
-        28,
-        29,
-        31,
-        30,
-        27,
-        26,
-        33,
-        32,
         6,
-        5,
-        25,
-        4,
         7,
         8,
-        9,
-        3,
-        24,
-        10,
-        11,
-        22,
-        42,
-        44,
-        45,
-        2,
-        23,
         37,
-        38,
-        40,
-        39,
-        34,
-        36,
-        35,
-        41
-      ],
-      "skeleton": 1
-    },
-    {
-      "inverseBindMatrices": 1,
-      "joints": [
-        26,
-        33,
-        32,
-        6,
-        5,
-        25,
-        4,
-        7,
-        8,
-        9,
-        3,
-        24,
-        42,
-        44,
-        45,
-        2,
         46,
-        55,
-        47,
-        64,
+        9,
+        45,
+        38,
+        24,
+        2,
+        3,
+        4,
+        5,
         48,
         49,
-        50,
+        61,
         62,
         63,
-        51,
-        52,
+        55,
+        66,
+        73,
         53,
-        54,
+        11,
+        75,
+        82,
+        83,
+        51,
+        10,
+        16,
         56,
         57,
-        72,
-        71,
         58,
+        74,
+        52,
+        50,
+        54,
         59,
         60,
-        61,
-        23,
-        34,
-        35,
-        41,
         65,
-        66,
-        67,
         68,
+        77,
+        29,
+        23,
+        36,
+        25,
+        64,
+        70,
         69,
-        70
-      ],
-      "skeleton": 1
-    },
-    {
-      "inverseBindMatrices": 2,
-      "joints": [
-        14,
-        15,
-        13,
-        12
+        35,
+        33,
+        31,
+        32,
+        34,
+        79,
+        78,
+        44,
+        42,
+        40,
+        41,
+        43
       ],
       "skeleton": 1
     }

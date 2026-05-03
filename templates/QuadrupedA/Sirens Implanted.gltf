@@ -21,6 +21,12 @@
     {
       "bufferView": 3,
       "componentType": 5126,
+      "count": 1,
+      "type": "MAT4"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
       "count": 11944,
       "max": [
         0.8095950484275818,
@@ -35,28 +41,22 @@
       "type": "VEC3"
     },
     {
-      "bufferView": 4,
+      "bufferView": 5,
       "componentType": 5126,
       "count": 11944,
       "type": "VEC3"
     },
     {
-      "bufferView": 5,
-      "componentType": 5126,
-      "count": 11944,
-      "type": "VEC4"
-    },
-    {
       "bufferView": 6,
       "componentType": 5126,
       "count": 11944,
-      "type": "VEC2"
+      "type": "VEC4"
     },
     {
       "bufferView": 7,
       "componentType": 5126,
       "count": 11944,
-      "type": "VEC4"
+      "type": "VEC2"
     },
     {
       "bufferView": 8,
@@ -66,7 +66,7 @@
     },
     {
       "bufferView": 9,
-      "componentType": 5123,
+      "componentType": 5126,
       "count": 11944,
       "type": "VEC4"
     },
@@ -79,11 +79,17 @@
     {
       "bufferView": 11,
       "componentType": 5123,
+      "count": 11944,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5123,
       "count": 55134,
       "type": "SCALAR"
     },
     {
-      "bufferView": 12,
+      "bufferView": 13,
       "componentType": 5126,
       "count": 7119,
       "max": [
@@ -99,28 +105,22 @@
       "type": "VEC3"
     },
     {
-      "bufferView": 13,
+      "bufferView": 14,
       "componentType": 5126,
       "count": 7119,
       "type": "VEC3"
     },
     {
-      "bufferView": 14,
-      "componentType": 5126,
-      "count": 7119,
-      "type": "VEC4"
-    },
-    {
       "bufferView": 15,
       "componentType": 5126,
       "count": 7119,
-      "type": "VEC2"
+      "type": "VEC4"
     },
     {
       "bufferView": 16,
       "componentType": 5126,
       "count": 7119,
-      "type": "VEC4"
+      "type": "VEC2"
     },
     {
       "bufferView": 17,
@@ -130,7 +130,7 @@
     },
     {
       "bufferView": 18,
-      "componentType": 5123,
+      "componentType": 5126,
       "count": 7119,
       "type": "VEC4"
     },
@@ -143,11 +143,17 @@
     {
       "bufferView": 20,
       "componentType": 5123,
+      "count": 7119,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 21,
+      "componentType": 5123,
       "count": 33690,
       "type": "SCALAR"
     },
     {
-      "bufferView": 21,
+      "bufferView": 22,
       "componentType": 5126,
       "count": 666,
       "max": [
@@ -163,39 +169,91 @@
       "type": "VEC3"
     },
     {
-      "bufferView": 22,
+      "bufferView": 23,
       "componentType": 5126,
       "count": 666,
       "type": "VEC3"
     },
     {
-      "bufferView": 23,
-      "componentType": 5126,
-      "count": 666,
-      "type": "VEC4"
-    },
-    {
       "bufferView": 24,
       "componentType": 5126,
       "count": 666,
-      "type": "VEC2"
+      "type": "VEC4"
     },
     {
       "bufferView": 25,
       "componentType": 5126,
       "count": 666,
-      "type": "VEC4"
+      "type": "VEC2"
     },
     {
       "bufferView": 26,
-      "componentType": 5123,
+      "componentType": 5126,
       "count": 666,
       "type": "VEC4"
     },
     {
       "bufferView": 27,
       "componentType": 5123,
+      "count": 666,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 28,
+      "componentType": 5123,
       "count": 2994,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 29,
+      "componentType": 5126,
+      "count": 1072,
+      "max": [
+        0.17883846163749695,
+        0.12024293094873428,
+        0.3273720443248749
+      ],
+      "min": [
+        -0.17883846163749695,
+        -0.24179814755916595,
+        -0.08401745557785034
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 30,
+      "componentType": 5126,
+      "count": 1072,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 31,
+      "componentType": 5126,
+      "count": 1072,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 32,
+      "componentType": 5126,
+      "count": 1072,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 33,
+      "componentType": 5126,
+      "count": 1072,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 34,
+      "componentType": 5123,
+      "count": 1072,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 35,
+      "componentType": 5123,
+      "count": 4434,
       "type": "SCALAR"
     }
   ],
@@ -220,160 +278,207 @@
     },
     {
       "buffer": 0,
-      "byteLength": 143328,
-      "byteOffset": 5376,
-      "target": 34962
+      "byteLength": 64,
+      "byteOffset": 5376
     },
     {
       "buffer": 0,
       "byteLength": 143328,
-      "byteOffset": 148704,
+      "byteOffset": 5440,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 143328,
+      "byteOffset": 148768,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 191104,
-      "byteOffset": 292032,
+      "byteOffset": 292096,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 95552,
-      "byteOffset": 483136,
+      "byteOffset": 483200,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 191104,
-      "byteOffset": 578688,
+      "byteOffset": 578752,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 191104,
-      "byteOffset": 769792,
+      "byteOffset": 769856,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 95552,
-      "byteOffset": 960896,
+      "byteOffset": 960960,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 95552,
-      "byteOffset": 1056448,
+      "byteOffset": 1056512,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 110268,
-      "byteOffset": 1152000,
+      "byteOffset": 1152064,
       "target": 34963
     },
     {
       "buffer": 0,
       "byteLength": 85428,
-      "byteOffset": 1262268,
+      "byteOffset": 1262332,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 85428,
-      "byteOffset": 1347696,
+      "byteOffset": 1347760,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 113904,
-      "byteOffset": 1433124,
+      "byteOffset": 1433188,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 56952,
-      "byteOffset": 1547028,
+      "byteOffset": 1547092,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 113904,
-      "byteOffset": 1603980,
+      "byteOffset": 1604044,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 113904,
-      "byteOffset": 1717884,
+      "byteOffset": 1717948,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 56952,
-      "byteOffset": 1831788,
+      "byteOffset": 1831852,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 56952,
-      "byteOffset": 1888740,
+      "byteOffset": 1888804,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 67380,
-      "byteOffset": 1945692,
+      "byteOffset": 1945756,
       "target": 34963
     },
     {
       "buffer": 0,
       "byteLength": 7992,
-      "byteOffset": 2013072,
+      "byteOffset": 2013136,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 7992,
-      "byteOffset": 2021064,
+      "byteOffset": 2021128,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 10656,
-      "byteOffset": 2029056,
+      "byteOffset": 2029120,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 5328,
-      "byteOffset": 2039712,
+      "byteOffset": 2039776,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 10656,
-      "byteOffset": 2045040,
+      "byteOffset": 2045104,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 5328,
-      "byteOffset": 2055696,
+      "byteOffset": 2055760,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 5988,
-      "byteOffset": 2061024,
+      "byteOffset": 2061088,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 12864,
+      "byteOffset": 2067076,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 12864,
+      "byteOffset": 2079940,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 17152,
+      "byteOffset": 2092804,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8576,
+      "byteOffset": 2109956,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 17152,
+      "byteOffset": 2118532,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8576,
+      "byteOffset": 2135684,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8868,
+      "byteOffset": 2144260,
       "target": 34963
     }
   ],
   "buffers": [
     {
-      "byteLength": 2067012,
-      "name": "Sirens.bin",
-      "uri": "Sirens.bin"
+      "byteLength": 2153128,
+      "name": "Sirens Implanted.bin",
+      "uri": "Sirens Implanted.bin"
     }
   ],
   "materials": [
@@ -394,6 +499,12 @@
         "Material Path": "materials/actors/quadrupeda/quadrupeda_sirens/quadrupeda_sirens_02.mat"
       },
       "name": "Materials/Actors/Quadrupeda/Quadrupeda_Sirens/Quadrupeda_Sirens_02"
+    },
+    {
+      "extras": {
+        "Material Path": "materials/actors/quadrupeda/quadrupeda_sirens/quadrupeda_sirens_implant.mat"
+      },
+      "name": "Materials/Actors/Quadrupeda/Quadrupeda_Sirens/Quadrupeda_Sirens_Implant"
     }
   ],
   "meshes": [
@@ -402,16 +513,16 @@
       "primitives": [
         {
           "attributes": {
-            "JOINTS_0": 9,
-            "JOINTS_1": 10,
-            "NORMAL": 4,
-            "POSITION": 3,
-            "TANGENT": 5,
-            "TEXCOORD_0": 6,
-            "WEIGHTS_0": 7,
-            "WEIGHTS_1": 8
+            "JOINTS_0": 10,
+            "JOINTS_1": 11,
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TANGENT": 6,
+            "TEXCOORD_0": 7,
+            "WEIGHTS_0": 8,
+            "WEIGHTS_1": 9
           },
-          "indices": 11,
+          "indices": 12,
           "material": 1,
           "mode": 4
         }
@@ -422,16 +533,16 @@
       "primitives": [
         {
           "attributes": {
-            "JOINTS_0": 18,
-            "JOINTS_1": 19,
-            "NORMAL": 13,
-            "POSITION": 12,
-            "TANGENT": 14,
-            "TEXCOORD_0": 15,
-            "WEIGHTS_0": 16,
-            "WEIGHTS_1": 17
+            "JOINTS_0": 19,
+            "JOINTS_1": 20,
+            "NORMAL": 14,
+            "POSITION": 13,
+            "TANGENT": 15,
+            "TEXCOORD_0": 16,
+            "WEIGHTS_0": 17,
+            "WEIGHTS_1": 18
           },
-          "indices": 20,
+          "indices": 21,
           "material": 2,
           "mode": 4
         }
@@ -442,15 +553,33 @@
       "primitives": [
         {
           "attributes": {
-            "JOINTS_0": 26,
-            "NORMAL": 22,
-            "POSITION": 21,
-            "TANGENT": 23,
-            "TEXCOORD_0": 24,
-            "WEIGHTS_0": 25
+            "JOINTS_0": 27,
+            "NORMAL": 23,
+            "POSITION": 22,
+            "TANGENT": 24,
+            "TEXCOORD_0": 25,
+            "WEIGHTS_0": 26
           },
-          "indices": 27,
+          "indices": 28,
           "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "QuadrupedA_Sirens_NCI_Implant:0",
+      "primitives": [
+        {
+          "attributes": {
+            "JOINTS_0": 34,
+            "NORMAL": 30,
+            "POSITION": 29,
+            "TANGENT": 31,
+            "TEXCOORD_0": 32,
+            "WEIGHTS_0": 33
+          },
+          "indices": 35,
+          "material": 3,
           "mode": 4
         }
       ]
@@ -462,7 +591,8 @@
         1,
         73,
         74,
-        75
+        75,
+        76
       ],
       "extras": {
         "Flags": 14,
@@ -2462,6 +2592,35 @@
         0.0,
         0.0
       ]
+    },
+    {
+      "extras": {
+        "Flags": 526,
+        "Has GPU LODs": false,
+        "ID": 218,
+        "Material Path": "Materials\\Actors\\QuadrupedA\\QuadrupedA_Sirens\\QuadrupedA_Sirens_Implant.mat",
+        "NiIntegerExtraData:MaterialID": 1116596747,
+        "Parent ID": 3
+      },
+      "mesh": 3,
+      "name": "QuadrupedA_Sirens_NCI_Implant:0",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "skin": 3,
+      "translation": [
+        0.0,
+        1.1152724027633667,
+        1.248087763786316
+      ]
     }
   ],
   "scenes": [
@@ -2572,6 +2731,13 @@
         15,
         13,
         12
+      ],
+      "skeleton": 1
+    },
+    {
+      "inverseBindMatrices": 3,
+      "joints": [
+        10
       ],
       "skeleton": 1
     }
