@@ -3,199 +3,71 @@
     {
       "bufferView": 0,
       "componentType": 5126,
-      "count": 33,
+      "count": 55,
       "type": "MAT4"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 47,
-      "type": "MAT4"
+      "count": 18339,
+      "max": [
+        0.905056893825531,
+        2.5047152042388916,
+        5.021393299102783
+      ],
+      "min": [
+        -0.905056893825531,
+        -0.02050843834877014,
+        -1.5339823961257935
+      ],
+      "type": "VEC3"
     },
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 4,
-      "type": "MAT4"
+      "count": 18339,
+      "type": "VEC3"
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 11944,
-      "max": [
-        0.8095950484275818,
-        1.2934964895248413,
-        2.401196241378784
-      ],
-      "min": [
-        -0.8095950484275818,
-        -0.7197485566139221,
-        -0.03003021329641342
-      ],
-      "type": "VEC3"
+      "count": 18339,
+      "type": "VEC4"
     },
     {
       "bufferView": 4,
       "componentType": 5126,
-      "count": 11944,
-      "type": "VEC3"
+      "count": 18339,
+      "type": "VEC2"
     },
     {
       "bufferView": 5,
       "componentType": 5126,
-      "count": 11944,
+      "count": 18339,
       "type": "VEC4"
     },
     {
       "bufferView": 6,
       "componentType": 5126,
-      "count": 11944,
-      "type": "VEC2"
+      "count": 18339,
+      "type": "VEC4"
     },
     {
       "bufferView": 7,
-      "componentType": 5126,
-      "count": 11944,
+      "componentType": 5123,
+      "count": 18339,
       "type": "VEC4"
     },
     {
       "bufferView": 8,
-      "componentType": 5126,
-      "count": 11944,
+      "componentType": 5123,
+      "count": 18339,
       "type": "VEC4"
     },
     {
       "bufferView": 9,
       "componentType": 5123,
-      "count": 11944,
-      "type": "VEC4"
-    },
-    {
-      "bufferView": 10,
-      "componentType": 5123,
-      "count": 11944,
-      "type": "VEC4"
-    },
-    {
-      "bufferView": 11,
-      "componentType": 5123,
-      "count": 55134,
-      "type": "SCALAR"
-    },
-    {
-      "bufferView": 12,
-      "componentType": 5126,
-      "count": 7119,
-      "max": [
-        0.7070528268814087,
-        0.024903103709220886,
-        1.8828699588775635
-      ],
-      "min": [
-        -0.7070528268814087,
-        -4.355113506317139,
-        -0.02612384408712387
-      ],
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 13,
-      "componentType": 5126,
-      "count": 7119,
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 14,
-      "componentType": 5126,
-      "count": 7119,
-      "type": "VEC4"
-    },
-    {
-      "bufferView": 15,
-      "componentType": 5126,
-      "count": 7119,
-      "type": "VEC2"
-    },
-    {
-      "bufferView": 16,
-      "componentType": 5126,
-      "count": 7119,
-      "type": "VEC4"
-    },
-    {
-      "bufferView": 17,
-      "componentType": 5126,
-      "count": 7119,
-      "type": "VEC4"
-    },
-    {
-      "bufferView": 18,
-      "componentType": 5123,
-      "count": 7119,
-      "type": "VEC4"
-    },
-    {
-      "bufferView": 19,
-      "componentType": 5123,
-      "count": 7119,
-      "type": "VEC4"
-    },
-    {
-      "bufferView": 20,
-      "componentType": 5123,
-      "count": 33690,
-      "type": "SCALAR"
-    },
-    {
-      "bufferView": 21,
-      "componentType": 5126,
-      "count": 666,
-      "max": [
-        0.06445509195327759,
-        1.2952055931091309,
-        1.0625324249267578
-      ],
-      "min": [
-        -0.06445509195327759,
-        0.773705244064331,
-        0.8779565095901489
-      ],
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 22,
-      "componentType": 5126,
-      "count": 666,
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 23,
-      "componentType": 5126,
-      "count": 666,
-      "type": "VEC4"
-    },
-    {
-      "bufferView": 24,
-      "componentType": 5126,
-      "count": 666,
-      "type": "VEC2"
-    },
-    {
-      "bufferView": 25,
-      "componentType": 5126,
-      "count": 666,
-      "type": "VEC4"
-    },
-    {
-      "bufferView": 26,
-      "componentType": 5123,
-      "count": 666,
-      "type": "VEC4"
-    },
-    {
-      "bufferView": 27,
-      "componentType": 5123,
-      "count": 2994,
+      "count": 95166,
       "type": "SCALAR"
     }
   ],
@@ -206,174 +78,68 @@
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 2112
+      "byteLength": 3520
     },
     {
       "buffer": 0,
-      "byteLength": 3008,
-      "byteOffset": 2112
-    },
-    {
-      "buffer": 0,
-      "byteLength": 256,
-      "byteOffset": 5120
-    },
-    {
-      "buffer": 0,
-      "byteLength": 143328,
-      "byteOffset": 5376,
+      "byteLength": 220068,
+      "byteOffset": 3520,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 143328,
-      "byteOffset": 148704,
+      "byteLength": 220068,
+      "byteOffset": 223588,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 191104,
-      "byteOffset": 292032,
+      "byteLength": 293424,
+      "byteOffset": 443656,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 95552,
-      "byteOffset": 483136,
+      "byteLength": 146712,
+      "byteOffset": 737080,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 191104,
-      "byteOffset": 578688,
+      "byteLength": 293424,
+      "byteOffset": 883792,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 191104,
-      "byteOffset": 769792,
+      "byteLength": 293424,
+      "byteOffset": 1177216,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 95552,
-      "byteOffset": 960896,
+      "byteLength": 146712,
+      "byteOffset": 1470640,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 95552,
-      "byteOffset": 1056448,
+      "byteLength": 146712,
+      "byteOffset": 1617352,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 110268,
-      "byteOffset": 1152000,
-      "target": 34963
-    },
-    {
-      "buffer": 0,
-      "byteLength": 85428,
-      "byteOffset": 1262268,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 85428,
-      "byteOffset": 1347696,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 113904,
-      "byteOffset": 1433124,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 56952,
-      "byteOffset": 1547028,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 113904,
-      "byteOffset": 1603980,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 113904,
-      "byteOffset": 1717884,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 56952,
-      "byteOffset": 1831788,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 56952,
-      "byteOffset": 1888740,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 67380,
-      "byteOffset": 1945692,
-      "target": 34963
-    },
-    {
-      "buffer": 0,
-      "byteLength": 7992,
-      "byteOffset": 2013072,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 7992,
-      "byteOffset": 2021064,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 10656,
-      "byteOffset": 2029056,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 5328,
-      "byteOffset": 2039712,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 10656,
-      "byteOffset": 2045040,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 5328,
-      "byteOffset": 2055696,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 5988,
-      "byteOffset": 2061024,
+      "byteLength": 190332,
+      "byteOffset": 1764064,
       "target": 34963
     }
   ],
   "buffers": [
     {
-      "byteLength": 2067012,
-      "name": "Sirens.bin",
-      "uri": "Sirens.bin"
+      "byteLength": 1954396,
+      "name": "Spinehead.bin",
+      "uri": "Spinehead.bin"
     }
   ],
   "materials": [
@@ -385,71 +151,27 @@
     },
     {
       "extras": {
-        "Material Path": "materials/actors/quadrupeda/quadrupeda_sirens/quadrupeda_sirens_01.mat"
+        "Material Path": "materials/actors/quadrupeda/quadrupeda_spinehead/quadrupeda_spinehead.mat"
       },
-      "name": "Materials/Actors/Quadrupeda/Quadrupeda_Sirens/Quadrupeda_Sirens_01"
-    },
-    {
-      "extras": {
-        "Material Path": "materials/actors/quadrupeda/quadrupeda_sirens/quadrupeda_sirens_02.mat"
-      },
-      "name": "Materials/Actors/Quadrupeda/Quadrupeda_Sirens/Quadrupeda_Sirens_02"
+      "name": "Materials/Actors/Quadrupeda/Quadrupeda_Spinehead/Quadrupeda_Spinehead"
     }
   ],
   "meshes": [
     {
-      "name": "QuadrupedA_Sirens:0",
+      "name": "QuadrupedA_SpineHead:0",
       "primitives": [
         {
           "attributes": {
-            "JOINTS_0": 9,
-            "JOINTS_1": 10,
-            "NORMAL": 4,
-            "POSITION": 3,
-            "TANGENT": 5,
-            "TEXCOORD_0": 6,
-            "WEIGHTS_0": 7,
-            "WEIGHTS_1": 8
+            "JOINTS_0": 7,
+            "JOINTS_1": 8,
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TANGENT": 3,
+            "TEXCOORD_0": 4,
+            "WEIGHTS_0": 5,
+            "WEIGHTS_1": 6
           },
-          "indices": 11,
-          "material": 1,
-          "mode": 4
-        }
-      ]
-    },
-    {
-      "name": "QuadrupedA_Sirens:1",
-      "primitives": [
-        {
-          "attributes": {
-            "JOINTS_0": 18,
-            "JOINTS_1": 19,
-            "NORMAL": 13,
-            "POSITION": 12,
-            "TANGENT": 14,
-            "TEXCOORD_0": 15,
-            "WEIGHTS_0": 16,
-            "WEIGHTS_1": 17
-          },
-          "indices": 20,
-          "material": 2,
-          "mode": 4
-        }
-      ]
-    },
-    {
-      "name": "QuadrupedA_Sirens_Tongue:0",
-      "primitives": [
-        {
-          "attributes": {
-            "JOINTS_0": 26,
-            "NORMAL": 22,
-            "POSITION": 21,
-            "TANGENT": 23,
-            "TEXCOORD_0": 24,
-            "WEIGHTS_0": 25
-          },
-          "indices": 27,
+          "indices": 9,
           "material": 1,
           "mode": 4
         }
@@ -460,9 +182,7 @@
     {
       "children": [
         1,
-        73,
-        74,
-        75
+        74
       ],
       "extras": {
         "Flags": 14,
@@ -490,7 +210,7 @@
     {
       "children": [
         2,
-        46
+        47
       ],
       "extras": {
         "Flags": 14,
@@ -572,7 +292,7 @@
     {
       "children": [
         5,
-        45
+        46
       ],
       "extras": {
         "Flags": 14,
@@ -600,7 +320,7 @@
     {
       "children": [
         6,
-        44
+        45
       ],
       "extras": {
         "Flags": 14,
@@ -629,12 +349,12 @@
       "children": [
         7,
         8,
-        22,
         23,
         24,
         25,
-        34,
-        43
+        26,
+        35,
+        44
       ],
       "extras": {
         "Flags": 14,
@@ -686,9 +406,9 @@
     {
       "children": [
         9,
-        19,
         20,
-        21
+        21,
+        22
       ],
       "extras": {
         "Flags": 14,
@@ -716,7 +436,7 @@
     {
       "children": [
         10,
-        18
+        19
       ],
       "extras": {
         "Flags": 14,
@@ -744,8 +464,8 @@
     {
       "children": [
         11,
-        16,
-        17
+        17,
+        18
       ],
       "extras": {
         "Flags": 14,
@@ -772,7 +492,8 @@
     },
     {
       "children": [
-        12
+        12,
+        16
       ],
       "extras": {
         "Flags": 14,
@@ -900,6 +621,30 @@
         0.16078101098537445,
         -1.220703097715159e-06,
         -1.5737313674435427e-07
+      ]
+    },
+    {
+      "extras": {
+        "Flags": 67108878,
+        "ID": 200,
+        "Parent ID": 35
+      },
+      "name": "Spring_Neck_01",
+      "rotation": [
+        5.032814442529343e-05,
+        -1.7895648852572776e-05,
+        0.589056670665741,
+        0.8080917000770569
+      ],
+      "scale": [
+        0.9999989867210388,
+        0.9999989867210388,
+        0.9999989867210388
+      ],
+      "translation": [
+        0.16076335310935974,
+        0.3439346253871918,
+        1.8081664165947586e-05
       ]
     },
     {
@@ -1120,7 +865,7 @@
     },
     {
       "children": [
-        26
+        27
       ],
       "extras": {
         "Flags": 14,
@@ -1147,8 +892,8 @@
     },
     {
       "children": [
-        27,
-        32
+        28,
+        33
       ],
       "extras": {
         "Flags": 14,
@@ -1175,7 +920,7 @@
     },
     {
       "children": [
-        28
+        29
       ],
       "extras": {
         "Flags": 14,
@@ -1202,7 +947,7 @@
     },
     {
       "children": [
-        29
+        30
       ],
       "extras": {
         "Flags": 14,
@@ -1229,8 +974,8 @@
     },
     {
       "children": [
-        30,
-        31
+        31,
+        32
       ],
       "extras": {
         "Flags": 14,
@@ -1305,7 +1050,7 @@
     },
     {
       "children": [
-        33
+        34
       ],
       "extras": {
         "Flags": 14,
@@ -1356,7 +1101,7 @@
     },
     {
       "children": [
-        35
+        36
       ],
       "extras": {
         "Flags": 14,
@@ -1383,8 +1128,8 @@
     },
     {
       "children": [
-        36,
-        41
+        37,
+        42
       ],
       "extras": {
         "Flags": 14,
@@ -1411,7 +1156,7 @@
     },
     {
       "children": [
-        37
+        38
       ],
       "extras": {
         "Flags": 14,
@@ -1438,7 +1183,7 @@
     },
     {
       "children": [
-        38
+        39
       ],
       "extras": {
         "Flags": 14,
@@ -1465,8 +1210,8 @@
     },
     {
       "children": [
-        39,
-        40
+        40,
+        41
       ],
       "extras": {
         "Flags": 14,
@@ -1541,7 +1286,7 @@
     },
     {
       "children": [
-        42
+        43
       ],
       "extras": {
         "Flags": 14,
@@ -1664,9 +1409,9 @@
     },
     {
       "children": [
-        47,
-        55,
-        64
+        48,
+        56,
+        65
       ],
       "extras": {
         "Flags": 14,
@@ -1693,7 +1438,7 @@
     },
     {
       "children": [
-        48
+        49
       ],
       "extras": {
         "Flags": 14,
@@ -1720,7 +1465,7 @@
     },
     {
       "children": [
-        49
+        50
       ],
       "extras": {
         "Flags": 14,
@@ -1747,7 +1492,7 @@
     },
     {
       "children": [
-        50
+        51
       ],
       "extras": {
         "Flags": 14,
@@ -1774,7 +1519,7 @@
     },
     {
       "children": [
-        51
+        52
       ],
       "extras": {
         "Flags": 14,
@@ -1801,7 +1546,7 @@
     },
     {
       "children": [
-        52
+        53
       ],
       "extras": {
         "Flags": 14,
@@ -1828,7 +1573,7 @@
     },
     {
       "children": [
-        53
+        54
       ],
       "extras": {
         "Flags": 14,
@@ -1855,7 +1600,7 @@
     },
     {
       "children": [
-        54
+        55
       ],
       "extras": {
         "Flags": 14,
@@ -1906,7 +1651,7 @@
     },
     {
       "children": [
-        56
+        57
       ],
       "extras": {
         "Flags": 14,
@@ -1933,8 +1678,8 @@
     },
     {
       "children": [
-        57,
-        62
+        58,
+        63
       ],
       "extras": {
         "Flags": 14,
@@ -1961,7 +1706,7 @@
     },
     {
       "children": [
-        58
+        59
       ],
       "extras": {
         "Flags": 14,
@@ -1988,7 +1733,7 @@
     },
     {
       "children": [
-        59
+        60
       ],
       "extras": {
         "Flags": 14,
@@ -2015,8 +1760,8 @@
     },
     {
       "children": [
-        60,
-        61
+        61,
+        62
       ],
       "extras": {
         "Flags": 14,
@@ -2091,7 +1836,7 @@
     },
     {
       "children": [
-        63
+        64
       ],
       "extras": {
         "Flags": 14,
@@ -2142,7 +1887,7 @@
     },
     {
       "children": [
-        65
+        66
       ],
       "extras": {
         "Flags": 14,
@@ -2169,8 +1914,8 @@
     },
     {
       "children": [
-        66,
-        71
+        67,
+        72
       ],
       "extras": {
         "Flags": 14,
@@ -2197,7 +1942,7 @@
     },
     {
       "children": [
-        67
+        68
       ],
       "extras": {
         "Flags": 14,
@@ -2224,7 +1969,7 @@
     },
     {
       "children": [
-        68
+        69
       ],
       "extras": {
         "Flags": 14,
@@ -2251,8 +1996,8 @@
     },
     {
       "children": [
-        69,
-        70
+        70,
+        71
       ],
       "extras": {
         "Flags": 14,
@@ -2327,7 +2072,7 @@
     },
     {
       "children": [
-        72
+        73
       ],
       "extras": {
         "Flags": 14,
@@ -2380,18 +2125,18 @@
       "extras": {
         "Flags": 526,
         "Has GPU LODs": false,
-        "ID": 200,
-        "Material Path": "Materials\\Actors\\QuadrupedA\\QuadrupedA_Sirens\\QuadrupedA_Sirens_01.mat",
-        "NiIntegerExtraData:MaterialID": 1538839999,
+        "ID": 202,
+        "Material Path": "Materials\\Actors\\QuadrupedA\\QuadrupedA_SpineHead\\QuadrupedA_SpineHead.mat",
+        "NiIntegerExtraData:MaterialID": -334588743,
         "Parent ID": 3
       },
       "mesh": 0,
-      "name": "QuadrupedA_Sirens:0",
+      "name": "QuadrupedA_SpineHead:0",
       "rotation": [
+        0.7071067690849304,
         0.0,
         0.0,
-        0.0,
-        1.0
+        0.7071067094802856
       ],
       "scale": [
         1.0,
@@ -2399,64 +2144,6 @@
         1.0
       ],
       "skin": 0,
-      "translation": [
-        0.0,
-        0.0,
-        0.0
-      ]
-    },
-    {
-      "extras": {
-        "Flags": 526,
-        "Has GPU LODs": false,
-        "ID": 206,
-        "Material Path": "Materials\\Actors\\QuadrupedA\\QuadrupedA_Sirens\\QuadrupedA_Sirens_02.mat",
-        "NiIntegerExtraData:MaterialID": 471379823,
-        "Parent ID": 3
-      },
-      "mesh": 1,
-      "name": "QuadrupedA_Sirens:1",
-      "rotation": [
-        0.0,
-        0.0,
-        0.0,
-        1.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "skin": 1,
-      "translation": [
-        0.0,
-        0.0,
-        0.0
-      ]
-    },
-    {
-      "extras": {
-        "Flags": 526,
-        "Has GPU LODs": false,
-        "ID": 212,
-        "Material Path": "Materials\\Actors\\QuadrupedA\\QuadrupedA_Sirens\\QuadrupedA_Sirens_01.mat",
-        "NiIntegerExtraData:MaterialID": 1538839999,
-        "Parent ID": 3
-      },
-      "mesh": 2,
-      "name": "QuadrupedA_Sirens_Tongue:0",
-      "rotation": [
-        0.0,
-        0.0,
-        0.0,
-        1.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "skin": 2,
       "translation": [
         0.0,
         0.0,
@@ -2476,102 +2163,61 @@
     {
       "inverseBindMatrices": 0,
       "joints": [
-        28,
-        29,
-        31,
-        30,
-        27,
-        26,
-        33,
-        32,
-        6,
-        5,
-        25,
-        4,
-        7,
-        8,
-        9,
-        3,
-        24,
-        10,
-        11,
-        22,
-        42,
-        44,
-        45,
-        2,
-        23,
-        37,
-        38,
-        40,
-        39,
-        34,
-        36,
-        35,
-        41
-      ],
-      "skeleton": 1
-    },
-    {
-      "inverseBindMatrices": 1,
-      "joints": [
-        26,
-        33,
-        32,
-        6,
-        5,
-        25,
-        4,
-        7,
-        8,
-        9,
-        3,
-        24,
-        42,
-        44,
-        45,
-        2,
-        46,
         55,
-        47,
-        64,
-        48,
-        49,
         50,
-        62,
-        63,
         51,
         52,
         53,
+        47,
+        48,
+        49,
         54,
-        56,
-        57,
+        65,
+        6,
+        8,
+        35,
+        42,
         72,
-        71,
+        2,
+        73,
+        3,
+        4,
+        5,
+        67,
+        43,
+        56,
+        26,
+        33,
+        34,
+        63,
+        64,
         58,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        12,
+        16,
+        37,
+        38,
+        39,
+        40,
+        41,
+        68,
+        69,
+        70,
+        71,
+        28,
+        29,
+        30,
+        31,
+        32,
         59,
         60,
         61,
-        23,
-        34,
-        35,
-        41,
-        65,
-        66,
-        67,
-        68,
-        69,
-        70
-      ],
-      "skeleton": 1
-    },
-    {
-      "inverseBindMatrices": 2,
-      "joints": [
-        14,
-        15,
-        13,
-        12
+        62
       ],
       "skeleton": 1
     }

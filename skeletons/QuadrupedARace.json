@@ -65,6 +65,27 @@
 		"L_OutterBackToe1",
 		"L_InnerBackToe1",
 		"L_BackLegUpperTwist1",
-		"L_BackLegUpperTwist2"
+		"L_BackLegUpperTwist2",
+		"L_Ear1",
+		"R_Ear1",
+		"C_BackSpike_1_1",
+		"C_BackSpike_2_1",
+		"R_BackSpike_1_1",
+		"L_BackSpike_1_1",
+		"LookAt_Neck_01",
+		"Cloth_Bone_001",
+		"Cloth_Bone_002",
+		"Cloth_Bone_003",
+		"Cloth_Bone_004",
+		"Cloth_Bone_008",
+		"Cloth_Bone_006",
+		"Cloth_Bone_005",
+		"Cloth_Bone_009",
+		"Cloth_Bone_007",
+		"Cloth_Bone_011",
+		"Cloth_Bone_010",
+		"LookAt_BackSail",
+		"Spring_Neck_01",
+		"Spring_Jaw_01"
 	]
 }
