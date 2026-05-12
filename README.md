@@ -15,7 +15,7 @@ A Blender 3.6 add-on designed to streamline the animation creation pipeline for 
 ## Key Features
 
 * **Non-Destructive Namespace Cleanup:** Blender strictly enforces unique names, often appending `.001` to duplicated bones or actions. This plugin temporarily clears the global namespace, strips the `.001` numbers from your target export, forces the top node to "Root", runs the export, and reverts everything back in milliseconds. Your Blender scene stays exactly how you organized it, but SAF gets the pristine naming it requires.
-* **One-Click NAF Export:** Automatically exports using the exact `glTF 2.0` parameters required by NAF (Embedded, Active Actions, correct sampling, no meshes).
+* **One-Click SAF Export:** Automatically exports using the exact `glTF 2.0` parameters required by SAF (Embedded, Active Actions, correct sampling, no meshes).
 * **Smart Hierarchy Detection:** Automatically detects whether your top root is an Empty or an Armature and ensures the correct object is active so IK constraints and keyframes bake correctly.
 * **JSON Dictionary Manager:** Instantly append newly created bones from your rig into your master Race JSON dictionary.
 * **Model Importer:** Quickly spawn base race models and skeletons directly from your templates folder.
